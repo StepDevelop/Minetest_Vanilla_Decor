@@ -11,7 +11,7 @@ Add Table (all wood)
 Add Bench (all wood)
 
 
-LICENSE:
+License:
 
  Copyright (C) 2016 Stefano <StepDevelop> Peris <stefanop.dev@gmail.com>
  
