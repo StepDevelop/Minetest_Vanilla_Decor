@@ -4,11 +4,11 @@ Mod decorated in classic style ;)
 
 Changelog:
 
-Add Glass Continued (node connected)
-Add Paths (Stone, Cobblestone, Mossy Cobblestone)
-Add Chairs (all wood)
-Add Table (all wood)
-Add Bench (all wood)
+-- Add Glass Continued (node connected)
+-- Add Paths (Stone, Cobblestone, Mossy Cobblestone)
+-- Add Chairs (all wood)
+-- Add Table (all wood)
+-- Add Bench (all wood)
 
 
 License:
