@@ -11,6 +11,7 @@ Changelog:<br>
 -- Add Chairs (all wood)<br>
 -- Add Tables (all wood)<br>
 -- Add Benches (all wood)<br>
+-- Add Carpets (All wood)<br>
 <br>
 
 License:<br>
