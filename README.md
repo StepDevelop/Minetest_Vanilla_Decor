@@ -10,7 +10,7 @@ Changelog:<br>
 -- Add Paths (Stone, Cobblestone, Mossy Cobblestone)<br>
 -- Add Chairs (all wood)<br>
 -- Add Tables (all wood)<br>
--- Add Benchs (all wood)<br>
+-- Add Benches (all wood)<br>
 <br>
 
 License:<br>
