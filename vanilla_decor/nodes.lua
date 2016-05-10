@@ -23,8 +23,8 @@
 --------------------
 
 
-minetest.register_node("vanilla_decor:glass_continued", {
-	description = "Glass_Continued",
+minetest.register_node("vanilla_decor:connected_glass", {
+	description = "Connected_Glass",
 	drawtype = "glasslike_framed",
 
 	tiles = {"default_glass.png", "default_glass_detail.png"},
@@ -37,6 +37,8 @@ minetest.register_node("vanilla_decor:glass_continued", {
 	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	sounds = default.node_sound_glass_defaults()
 })
+
+
 
 
 -------------------------------------------------------------------------------------------------------------------------
@@ -56,7 +58,7 @@ minetest.register_node("vanilla_decor:path_stone", {
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
-	buildable_to = true,
+	buildable_to = false,
 	walkable = true,
 	climbable = false,
 	groups = {cracky=3},
@@ -96,7 +98,7 @@ minetest.register_node("vanilla_decor:path_cobble", {
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
-	buildable_to = true,
+	buildable_to = false,
 	walkable = true,
 	climbable = false,
 	groups = {cracky=3},
@@ -136,7 +138,7 @@ minetest.register_node("vanilla_decor:path_mossycobble", {
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
-	buildable_to = true,
+	buildable_to = false,
 	walkable = true,
 	climbable = false,
 	groups = {cracky=3},
@@ -182,7 +184,7 @@ minetest.register_node("vanilla_decor:chair_wooden_planks", {
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
-	buildable_to = true,
+	buildable_to = false,
 	walkable = true,
 	climbable = false,
 	groups = {cracky=3},
@@ -209,7 +211,7 @@ minetest.register_node("vanilla_decor:chair_pine_wood", {
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
-	buildable_to = true,
+	buildable_to = false,
 	walkable = true,
 	climbable = false,
 	groups = {cracky=3},
@@ -236,7 +238,7 @@ minetest.register_node("vanilla_decor:chair_acacia_wood", {
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
-	buildable_to = true,
+	buildable_to = false,
 	walkable = true,
 	climbable = false,
 	groups = {cracky=3},
@@ -263,7 +265,7 @@ minetest.register_node("vanilla_decor:chair_aspen_wood", {
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
-	buildable_to = true,
+	buildable_to = false,
 	walkable = true,
 	climbable = false,
 	groups = {cracky=3},
@@ -290,7 +292,7 @@ minetest.register_node("vanilla_decor:chair_jungle_wood", {
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
-	buildable_to = true,
+	buildable_to = false,
 	walkable = true,
 	climbable = false,
 	groups = {cracky=3},
@@ -325,7 +327,7 @@ minetest.register_node("vanilla_decor:table_wooden_planks", {
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
-	buildable_to = true,
+	buildable_to = false,
 	walkable = true,
 	climbable = false,
 	groups = {cracky=3},
@@ -351,7 +353,7 @@ minetest.register_node("vanilla_decor:table_pine_wood", {
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
-	buildable_to = true,
+	buildable_to = false,
 	walkable = true,
 	climbable = false,
 	groups = {cracky=3},
@@ -377,7 +379,7 @@ minetest.register_node("vanilla_decor:table_acacia_wood", {
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
-	buildable_to = true,
+	buildable_to = false,
 	walkable = true,
 	climbable = false,
 	groups = {cracky=3},
@@ -403,7 +405,7 @@ minetest.register_node("vanilla_decor:table_aspen_wood", {
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
-	buildable_to = true,
+	buildable_to = false,
 	walkable = true,
 	climbable = false,
 	groups = {cracky=3},
@@ -429,7 +431,7 @@ minetest.register_node("vanilla_decor:table_jungle_wood", {
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
-	buildable_to = true,
+	buildable_to = false,
 	walkable = true,
 	climbable = false,
 	groups = {cracky=3},
@@ -451,9 +453,9 @@ minetest.register_node("vanilla_decor:table_jungle_wood", {
 -------------------------------------------------------------------------------------------------------------------------
 
 
----------------
--- BANCHETTI --
----------------
+--------------
+-- PANCHINE --
+--------------
 
 
 minetest.register_node("vanilla_decor:bench_wooden_planks", {
@@ -463,7 +465,7 @@ minetest.register_node("vanilla_decor:bench_wooden_planks", {
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
-	buildable_to = true,
+	buildable_to = false,
 	walkable = true,
 	climbable = false,
 	groups = {cracky=3},
@@ -487,7 +489,7 @@ minetest.register_node("vanilla_decor:bench_pine_wood", {
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
-	buildable_to = true,
+	buildable_to = false,
 	walkable = true,
 	climbable = false,
 	groups = {cracky=3},
@@ -511,7 +513,7 @@ minetest.register_node("vanilla_decor:bench_acacia_wood", {
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
-	buildable_to = true,
+	buildable_to = false,
 	walkable = true,
 	climbable = false,
 	groups = {cracky=3},
@@ -535,7 +537,7 @@ minetest.register_node("vanilla_decor:bench_aspen_wood", {
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
-	buildable_to = true,
+	buildable_to = false,
 	walkable = true,
 	climbable = false,
 	groups = {cracky=3},
@@ -559,7 +561,7 @@ minetest.register_node("vanilla_decor:bench_jungle_wood", {
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
-	buildable_to = true,
+	buildable_to = false,
 	walkable = true,
 	climbable = false,
 	groups = {cracky=3},
@@ -574,5 +576,355 @@ minetest.register_node("vanilla_decor:bench_jungle_wood", {
 		}
 	}
 })
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+
+-------------
+-- TAPPETI --
+-------------
+
+minetest.register_node("vanilla_decor:carpet_white", {
+	description = "Carpet_White",
+	drawtype = "nodebox",
+	tiles = {"wool_white.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = true,
+	climbable = false,
+	groups = {cracky=3},
+	stack_max = 250,
+	sounds = default.node_sound_defaults(),
+		node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5} -- Carpet node
+		}
+	}
+})
+
+
+minetest.register_node("vanilla_decor:carpet_black", {
+	description = "Carpet_Black",
+	drawtype = "nodebox",
+	tiles = {"wool_black.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = true,
+	climbable = false,
+	groups = {cracky=3},
+	stack_max = 250,
+	sounds = default.node_sound_defaults(),
+		node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5} -- Carpet node
+		}
+	}
+})
+
+
+minetest.register_node("vanilla_decor:carpet_blue", {
+	description = "Carpet_Blue",
+	drawtype = "nodebox",
+	tiles = {"wool_blue.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = true,
+	climbable = false,
+	groups = {cracky=3},
+	stack_max = 250,
+	sounds = default.node_sound_defaults(),
+		node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5} -- Carpet node
+		}
+	}
+})
+
+
+minetest.register_node("vanilla_decor:carpet_brown", {
+	description = "Carpet_Brown",
+	drawtype = "nodebox",
+	tiles = {"wool_brown.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = true,
+	climbable = false,
+	groups = {cracky=3},
+	stack_max = 250,
+	sounds = default.node_sound_defaults(),
+		node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5} -- Carpet node
+		}
+	}
+})
+
+
+minetest.register_node("vanilla_decor:carpet_cyan", {
+	description = "Carpet_Cyan",
+	drawtype = "nodebox",
+	tiles = {"wool_cyan.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = true,
+	climbable = false,
+	groups = {cracky=3},
+	stack_max = 250,
+	sounds = default.node_sound_defaults(),
+		node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5} -- Carpet node
+		}
+	}
+})
+
+
+minetest.register_node("vanilla_decor:carpet_dark_green", {
+	description = "Carpet_Dark_Green",
+	drawtype = "nodebox",
+	tiles = {"wool_dark_green.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = true,
+	climbable = false,
+	groups = {cracky=3},
+	stack_max = 250,
+	sounds = default.node_sound_defaults(),
+		node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5} -- Carpet node
+		}
+	}
+})
+
+
+minetest.register_node("vanilla_decor:carpet_dark_grey", {
+	description = "Carpet_Dark_Grey",
+	drawtype = "nodebox",
+	tiles = {"wool_dark_grey.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = true,
+	climbable = false,
+	groups = {cracky=3},
+	stack_max = 250,
+	sounds = default.node_sound_defaults(),
+		node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5} -- Carpet node
+		}
+	}
+})
+
+
+minetest.register_node("vanilla_decor:carpet_green", {
+	description = "Carpet_Green",
+	drawtype = "nodebox",
+	tiles = {"wool_green.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = true,
+	climbable = false,
+	groups = {cracky=3},
+	stack_max = 250,
+	sounds = default.node_sound_defaults(),
+		node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5} -- Carpet node
+		}
+	}
+})
+
+
+minetest.register_node("vanilla_decor:carpet_grey", {
+	description = "Carpet_Grey",
+	drawtype = "nodebox",
+	tiles = {"wool_grey.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = true,
+	climbable = false,
+	groups = {cracky=3},
+	stack_max = 250,
+	sounds = default.node_sound_defaults(),
+		node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5} -- Carpet node
+		}
+	}
+})
+
+
+minetest.register_node("vanilla_decor:carpet_magenta", {
+	description = "Carpet_Magenta",
+	drawtype = "nodebox",
+	tiles = {"wool_magenta.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = true,
+	climbable = false,
+	groups = {cracky=3},
+	stack_max = 250,
+	sounds = default.node_sound_defaults(),
+		node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5} -- Carpet node
+		}
+	}
+})
+
+
+minetest.register_node("vanilla_decor:carpet_orange", {
+	description = "Carpet_Orange",
+	drawtype = "nodebox",
+	tiles = {"wool_orange.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = true,
+	climbable = false,
+	groups = {cracky=3},
+	stack_max = 250,
+	sounds = default.node_sound_defaults(),
+		node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5} -- Carpet node
+		}
+	}
+})
+
+
+minetest.register_node("vanilla_decor:carpet_pink", {
+	description = "Carpet_Pink",
+	drawtype = "nodebox",
+	tiles = {"wool_pink.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = true,
+	climbable = false,
+	groups = {cracky=3},
+	stack_max = 250,
+	sounds = default.node_sound_defaults(),
+		node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5} -- Carpet node
+		}
+	}
+})
+
+
+minetest.register_node("vanilla_decor:carpet_red", {
+	description = "Carpet_Red",
+	drawtype = "nodebox",
+	tiles = {"wool_red.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = true,
+	climbable = false,
+	groups = {cracky=3},
+	stack_max = 250,
+	sounds = default.node_sound_defaults(),
+		node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5} -- Carpet node
+		}
+	}
+})
+
+
+minetest.register_node("vanilla_decor:carpet_violet", {
+	description = "Carpet_Violet",
+	drawtype = "nodebox",
+	tiles = {"wool_violet.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = true,
+	climbable = false,
+	groups = {cracky=3},
+	stack_max = 250,
+	sounds = default.node_sound_defaults(),
+		node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5} -- Carpet node
+		}
+	}
+})
+
+
+minetest.register_node("vanilla_decor:carpet_yellow", {
+	description = "Carpet_Yellow",
+	drawtype = "nodebox",
+	tiles = {"wool_yellow.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = true,
+	climbable = false,
+	groups = {cracky=3},
+	stack_max = 250,
+	sounds = default.node_sound_defaults(),
+		node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5} -- Carpet node
+		}
+	}
+})
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
 
 
