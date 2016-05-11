@@ -580,7 +580,6 @@ minetest.register_node("vanilla_decor:bench_jungle_wood", {
 
 -------------------------------------------------------------------------------------------------------------------------
 
-
 -------------
 -- TAPPETI --
 -------------
@@ -597,7 +596,7 @@ minetest.register_node("vanilla_decor:carpet_white", {
 	climbable = false,
 	groups = {cracky=3},
 	stack_max = 250,
-	sounds = default.node_sound_defaults(),
+	sounds = default.node_sound_defaults(),	
 		node_box = {
 		type = "fixed",
 		fixed = {
@@ -918,6 +917,38 @@ minetest.register_node("vanilla_decor:carpet_yellow", {
 -------------------------------------------------------------------------------------------------------------------------
 
 
+--------------
+-- POLTRONE --
+--------------
+
+
+minetest.register_node("vanilla_decor:armchair_white", {
+	description = "Armchair_White",
+	drawtype = "nodebox",
+	tiles = {"wool_white.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = true,
+	climbable = false,
+	groups = {cracky=3},
+	stack_max = 250,
+	sounds = default.node_sound_defaults(),
+		node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.4375, -0.5, -0.4375, 0.4375, -0.125, 0.3125}, -- Base
+			{-0.4375, -0.5, 0.3125, 0.4375, 0.5, 0.5}, -- Schienale
+			{-0.4375, -0.125, -0.4375, -0.3125, 7.45058e-09, 0.3125}, -- Bracciolo_Sinistro
+			{0.3125, -0.125, -0.4375, 0.4375, -3.72529e-09, 0.3125}, -- Bracciolo_Destro
+		}
+	}
+})
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
 ----------
 -- VASI --
 ----------
@@ -1004,6 +1035,25 @@ minetest.register_node("vanilla_decor:flower_viola_pot", {
 	drawtype = "plantlike",
 	inventory_image = "flower_viola_pot.png",
 	tiles = {"flower_viola_pot.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = false,
+	climbable = false,	
+	stack_max = 250,
+	selection_box = {type = "regular"},
+	groups = {cracky=2, liquid=3, flammable=3},
+	sounds = default.node_sound_leaves_defaults(),
+	
+})
+
+
+minetest.register_node("vanilla_decor:flower_geranium_pot", {
+	description = "Flower_Geranium_Pot",
+	drawtype = "plantlike",
+	inventory_image = "flower_geranium_pot.png",
+	tiles = {"flower_geranium_pot.png"},
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
