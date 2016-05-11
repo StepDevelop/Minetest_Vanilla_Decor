@@ -1,7 +1,7 @@
 # Minetest_Vanilla_Decor
 <br>
 <br>
-ENGLISH:
+ENGLISH:<br>
 <br>
 Mod decorated in classic style ;)
 <br>
@@ -26,7 +26,7 @@ Changelog (05/11/2016):<br>
 -- Add Pot Flowers (graphics 2d, alpha version)<br>
 <br>
 <br>
-ITALIAN:
+ITALIAN:<br>
 <br>
 Mod decorativa in stile classico ;)
 <br>
@@ -49,6 +49,8 @@ Changelog (11/05/2016):<br>
 -- Aggiunti i tappeti (tutti i colori della lana)<br>
 -- Aggiunti i vasi di fiori (grafica 2d, in fase alpha, a breve includerò quelli 3d)<br>
 <br>
+<br>
+----------------------------------------------------------------------------------------------------------------------<br>
 <br>
  License:<br>
 
