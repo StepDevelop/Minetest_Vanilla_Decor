@@ -18,16 +18,26 @@
 --]]
 
 
-dofile(minetest.get_modpath('vanilla_decor')..'/armchair.lua')
-dofile(minetest.get_modpath('vanilla_decor')..'/benches.lua')
-dofile(minetest.get_modpath('vanilla_decor')..'/carpets.lua')
-dofile(minetest.get_modpath('vanilla_decor')..'/chair.lua')
-dofile(minetest.get_modpath('vanilla_decor')..'/connected_glass.lua')
-dofile(minetest.get_modpath('vanilla_decor')..'/flowers_pot.lua')
-dofile(minetest.get_modpath('vanilla_decor')..'/paths.lua')
-dofile(minetest.get_modpath('vanilla_decor')..'/tables.lua')
+--------------------
+-- VETRO CONTINUO --
+--------------------
 
 
--- Crafting
+minetest.register_node("vanilla_decor:connected_glass", {
+	description = "Connected_Glass",
+	drawtype = "glasslike_framed",
 
--- dofile(minetest.get_modpath('vanilla_decor')..'/crafting.lua')
+	tiles = {"default_glass.png", "default_glass_detail.png"},
+	inventory_image = minetest.inventorycube("default_glass.png"),
+
+	paramtype = "light",
+	sunlight_propagates = true, -- Sunlight can shine through block
+	is_ground_content = false, -- Stops caves from being generated over this node.
+
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
+	sounds = default.node_sound_glass_defaults()
+})
+
+
+
+
