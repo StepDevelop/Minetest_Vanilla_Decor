@@ -1,5 +1,8 @@
 # Minetest_Vanilla_Decor
 <br>
+<br>
+ENGLISH:
+<br>
 Mod decorated in classic style ;)
 <br>
 <br>
@@ -24,7 +27,21 @@ Changelog:<br>
 <br>
 <br>
 <br>
-License:<br>
+ITALIAN:
+<br>
+Mod decorativa in stile classico ;)
+<br>
+Questa mod, incluse tutti i blocchi, e oggetti decorativi, non presenti nella versione di Minetest "Vanilla".<br>
+
+Vanilla Decor, rispetta lo stile grafico di Minetest, è include soltanto blocchi, e oggetti decorativi integrati perfettamente con lo stile del gioco.<br>
+
+Mi auguro che il mio lavoro sia di vostro gradimento. Il progetto è in continuo sviluppo, e in futuro migliorerò, e includerò nuovi elementi decorativi.<br>
+
+Grazie a tutti.<br>
+<br>
+<br>
+<br>
+ License:<br>
 
  Copyright (C) 2016 Stefano <StepDevelop> Peris <stefanop.dev@gmail.com><br>
  
