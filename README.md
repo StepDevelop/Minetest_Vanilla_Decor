@@ -23,7 +23,7 @@ Changelog (05/11/2016):<br>
 -- Add Tables (all wood)<br>
 -- Add Benches (all wood)<br>
 -- Add Carpets (all wood)<br>
--- Add Pot Flowers (graphics 2d, alpha version)<br>
+-- Add Pot Flowers (graphics 2d, flowers pot completely hand-drawn!)<br>
 <br>
 <br>
 ----------------------------------------------------------------------------------------------------------------------------------------------------<br>
@@ -49,7 +49,7 @@ Changelog (11/05/2016):<br>
 -- Aggiunti i tavoli (tutti i legni)<br>
 -- Aggiunte le panchine (tutti i legni)<br>
 -- Aggiunti i tappeti (tutti i colori della lana)<br>
--- Aggiunti i vasi di fiori (grafica 2d, in fase alpha, a breve includerò quelli 3d)<br>
+-- Aggiunti i vasi di fiori (grafica 2d, completamente ridisegnati a mano!)<br>
 <br>
 <br>
 ----------------------------------------------------------------------------------------------------------------------------------------------------<br>
