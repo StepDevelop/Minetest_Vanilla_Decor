@@ -15,7 +15,7 @@ I hope that my work is to your liking. The project is in constant development, a
 Thank you all.<br>
 <br>
 <br>
-Changelog:<br>
+Changelog (05/11/2016):<br>
 
 -- Add Glass Continued (node connected)<br>
 -- Add Paths (stone, cobblestone, mossy cobblestone)<br>
@@ -39,7 +39,7 @@ Mi auguro che il mio lavoro sia di vostro gradimento. Il progetto è in continuo
 Grazie a tutti.<br>
 <br>
 <br>
-Changelog:<br>
+Changelog (11/05/2016):<br>
 
 -- Aggiunto il vetro collegato (nodi continui, che genera il blocco di vetro senza bordi)<br>
 -- Aggiunto il selciato (stone, cobblestone, mossy cobblestone)<br>
