@@ -23,6 +23,331 @@
 --------------
 
 
+minetest.register_node("vanilla_decor:armchair_black", {
+	description = "Armchair_Black",
+	drawtype = "nodebox",
+	tiles = {"wool_black.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = true,
+	climbable = false,
+	groups = {cracky=3},
+	stack_max = 250,
+	sounds = default.node_sound_defaults(),
+		node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.4375, -0.5, -0.4375, 0.4375, -0.125, 0.3125}, -- Base
+			{-0.4375, -0.5, 0.3125, 0.4375, 0.5, 0.5}, -- Schienale
+			{-0.4375, -0.125, -0.4375, -0.3125, 7.45058e-09, 0.3125}, -- Bracciolo_Sinistro
+			{0.3125, -0.125, -0.4375, 0.4375, -3.72529e-09, 0.3125}, -- Bracciolo_Destro
+		}
+	}
+})
+
+
+minetest.register_node("vanilla_decor:armchair_blue", {
+	description = "Armchair_Blue",
+	drawtype = "nodebox",
+	tiles = {"wool_blue.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = true,
+	climbable = false,
+	groups = {cracky=3},
+	stack_max = 250,
+	sounds = default.node_sound_defaults(),
+		node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.4375, -0.5, -0.4375, 0.4375, -0.125, 0.3125}, -- Base
+			{-0.4375, -0.5, 0.3125, 0.4375, 0.5, 0.5}, -- Schienale
+			{-0.4375, -0.125, -0.4375, -0.3125, 7.45058e-09, 0.3125}, -- Bracciolo_Sinistro
+			{0.3125, -0.125, -0.4375, 0.4375, -3.72529e-09, 0.3125}, -- Bracciolo_Destro
+		}
+	}
+})
+
+
+minetest.register_node("vanilla_decor:armchair_brown", {
+	description = "Armchair_Brown",
+	drawtype = "nodebox",
+	tiles = {"wool_brown.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = true,
+	climbable = false,
+	groups = {cracky=3},
+	stack_max = 250,
+	sounds = default.node_sound_defaults(),
+		node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.4375, -0.5, -0.4375, 0.4375, -0.125, 0.3125}, -- Base
+			{-0.4375, -0.5, 0.3125, 0.4375, 0.5, 0.5}, -- Schienale
+			{-0.4375, -0.125, -0.4375, -0.3125, 7.45058e-09, 0.3125}, -- Bracciolo_Sinistro
+			{0.3125, -0.125, -0.4375, 0.4375, -3.72529e-09, 0.3125}, -- Bracciolo_Destro
+		}
+	}
+})
+
+
+
+minetest.register_node("vanilla_decor:armchair_cyan", {
+	description = "Armchair_Cyan",
+	drawtype = "nodebox",
+	tiles = {"wool_cyan.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = true,
+	climbable = false,
+	groups = {cracky=3},
+	stack_max = 250,
+	sounds = default.node_sound_defaults(),
+		node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.4375, -0.5, -0.4375, 0.4375, -0.125, 0.3125}, -- Base
+			{-0.4375, -0.5, 0.3125, 0.4375, 0.5, 0.5}, -- Schienale
+			{-0.4375, -0.125, -0.4375, -0.3125, 7.45058e-09, 0.3125}, -- Bracciolo_Sinistro
+			{0.3125, -0.125, -0.4375, 0.4375, -3.72529e-09, 0.3125}, -- Bracciolo_Destro
+		}
+	}
+})
+
+
+minetest.register_node("vanilla_decor:armchair_dark_green", {
+	description = "Armchair_Dark_Green",
+	drawtype = "nodebox",
+	tiles = {"wool_dark_green.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = true,
+	climbable = false,
+	groups = {cracky=3},
+	stack_max = 250,
+	sounds = default.node_sound_defaults(),
+		node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.4375, -0.5, -0.4375, 0.4375, -0.125, 0.3125}, -- Base
+			{-0.4375, -0.5, 0.3125, 0.4375, 0.5, 0.5}, -- Schienale
+			{-0.4375, -0.125, -0.4375, -0.3125, 7.45058e-09, 0.3125}, -- Bracciolo_Sinistro
+			{0.3125, -0.125, -0.4375, 0.4375, -3.72529e-09, 0.3125}, -- Bracciolo_Destro
+		}
+	}
+})
+
+
+minetest.register_node("vanilla_decor:armchair_dark_grey", {
+	description = "Armchair_Dark_Grey",
+	drawtype = "nodebox",
+	tiles = {"wool_dark_grey.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = true,
+	climbable = false,
+	groups = {cracky=3},
+	stack_max = 250,
+	sounds = default.node_sound_defaults(),
+		node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.4375, -0.5, -0.4375, 0.4375, -0.125, 0.3125}, -- Base
+			{-0.4375, -0.5, 0.3125, 0.4375, 0.5, 0.5}, -- Schienale
+			{-0.4375, -0.125, -0.4375, -0.3125, 7.45058e-09, 0.3125}, -- Bracciolo_Sinistro
+			{0.3125, -0.125, -0.4375, 0.4375, -3.72529e-09, 0.3125}, -- Bracciolo_Destro
+		}
+	}
+})
+
+
+minetest.register_node("vanilla_decor:armchair_green", {
+	description = "Armchair_Green",
+	drawtype = "nodebox",
+	tiles = {"wool_green.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = true,
+	climbable = false,
+	groups = {cracky=3},
+	stack_max = 250,
+	sounds = default.node_sound_defaults(),
+		node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.4375, -0.5, -0.4375, 0.4375, -0.125, 0.3125}, -- Base
+			{-0.4375, -0.5, 0.3125, 0.4375, 0.5, 0.5}, -- Schienale
+			{-0.4375, -0.125, -0.4375, -0.3125, 7.45058e-09, 0.3125}, -- Bracciolo_Sinistro
+			{0.3125, -0.125, -0.4375, 0.4375, -3.72529e-09, 0.3125}, -- Bracciolo_Destro
+		}
+	}
+})
+
+
+minetest.register_node("vanilla_decor:armchair_grey", {
+	description = "Armchair_Grey",
+	drawtype = "nodebox",
+	tiles = {"wool_grey.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = true,
+	climbable = false,
+	groups = {cracky=3},
+	stack_max = 250,
+	sounds = default.node_sound_defaults(),
+		node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.4375, -0.5, -0.4375, 0.4375, -0.125, 0.3125}, -- Base
+			{-0.4375, -0.5, 0.3125, 0.4375, 0.5, 0.5}, -- Schienale
+			{-0.4375, -0.125, -0.4375, -0.3125, 7.45058e-09, 0.3125}, -- Bracciolo_Sinistro
+			{0.3125, -0.125, -0.4375, 0.4375, -3.72529e-09, 0.3125}, -- Bracciolo_Destro
+		}
+	}
+})
+
+
+minetest.register_node("vanilla_decor:armchair_magenta", {
+	description = "Armchair_Magenta",
+	drawtype = "nodebox",
+	tiles = {"wool_magenta.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = true,
+	climbable = false,
+	groups = {cracky=3},
+	stack_max = 250,
+	sounds = default.node_sound_defaults(),
+		node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.4375, -0.5, -0.4375, 0.4375, -0.125, 0.3125}, -- Base
+			{-0.4375, -0.5, 0.3125, 0.4375, 0.5, 0.5}, -- Schienale
+			{-0.4375, -0.125, -0.4375, -0.3125, 7.45058e-09, 0.3125}, -- Bracciolo_Sinistro
+			{0.3125, -0.125, -0.4375, 0.4375, -3.72529e-09, 0.3125}, -- Bracciolo_Destro
+		}
+	}
+})
+
+
+minetest.register_node("vanilla_decor:armchair_orange", {
+	description = "Armchair_Orange",
+	drawtype = "nodebox",
+	tiles = {"wool_orange.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = true,
+	climbable = false,
+	groups = {cracky=3},
+	stack_max = 250,
+	sounds = default.node_sound_defaults(),
+		node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.4375, -0.5, -0.4375, 0.4375, -0.125, 0.3125}, -- Base
+			{-0.4375, -0.5, 0.3125, 0.4375, 0.5, 0.5}, -- Schienale
+			{-0.4375, -0.125, -0.4375, -0.3125, 7.45058e-09, 0.3125}, -- Bracciolo_Sinistro
+			{0.3125, -0.125, -0.4375, 0.4375, -3.72529e-09, 0.3125}, -- Bracciolo_Destro
+		}
+	}
+})
+
+minetest.register_node("vanilla_decor:armchair_pink", {
+	description = "Armchair_Pink",
+	drawtype = "nodebox",
+	tiles = {"wool_pink.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = true,
+	climbable = false,
+	groups = {cracky=3},
+	stack_max = 250,
+	sounds = default.node_sound_defaults(),
+		node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.4375, -0.5, -0.4375, 0.4375, -0.125, 0.3125}, -- Base
+			{-0.4375, -0.5, 0.3125, 0.4375, 0.5, 0.5}, -- Schienale
+			{-0.4375, -0.125, -0.4375, -0.3125, 7.45058e-09, 0.3125}, -- Bracciolo_Sinistro
+			{0.3125, -0.125, -0.4375, 0.4375, -3.72529e-09, 0.3125}, -- Bracciolo_Destro
+		}
+	}
+})
+
+
+minetest.register_node("vanilla_decor:armchair_red", {
+	description = "Armchair_Red",
+	drawtype = "nodebox",
+	tiles = {"wool_red.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = true,
+	climbable = false,
+	groups = {cracky=3},
+	stack_max = 250,
+	sounds = default.node_sound_defaults(),
+		node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.4375, -0.5, -0.4375, 0.4375, -0.125, 0.3125}, -- Base
+			{-0.4375, -0.5, 0.3125, 0.4375, 0.5, 0.5}, -- Schienale
+			{-0.4375, -0.125, -0.4375, -0.3125, 7.45058e-09, 0.3125}, -- Bracciolo_Sinistro
+			{0.3125, -0.125, -0.4375, 0.4375, -3.72529e-09, 0.3125}, -- Bracciolo_Destro
+		}
+	}
+})
+
+
+minetest.register_node("vanilla_decor:armchair_violet", {
+	description = "Armchair_Violet",
+	drawtype = "nodebox",
+	tiles = {"wool_violet.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = true,
+	climbable = false,
+	groups = {cracky=3},
+	stack_max = 250,
+	sounds = default.node_sound_defaults(),
+		node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.4375, -0.5, -0.4375, 0.4375, -0.125, 0.3125}, -- Base
+			{-0.4375, -0.5, 0.3125, 0.4375, 0.5, 0.5}, -- Schienale
+			{-0.4375, -0.125, -0.4375, -0.3125, 7.45058e-09, 0.3125}, -- Bracciolo_Sinistro
+			{0.3125, -0.125, -0.4375, 0.4375, -3.72529e-09, 0.3125}, -- Bracciolo_Destro
+		}
+	}
+})
+
+
 minetest.register_node("vanilla_decor:armchair_white", {
 	description = "Armchair_White",
 	drawtype = "nodebox",
@@ -46,5 +371,32 @@ minetest.register_node("vanilla_decor:armchair_white", {
 		}
 	}
 })
+
+
+minetest.register_node("vanilla_decor:armchair_yellow", {
+	description = "Armchair_Yellow",
+	drawtype = "nodebox",
+	tiles = {"wool_yellow.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = true,
+	climbable = false,
+	groups = {cracky=3},
+	stack_max = 250,
+	sounds = default.node_sound_defaults(),
+		node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.4375, -0.5, -0.4375, 0.4375, -0.125, 0.3125}, -- Base
+			{-0.4375, -0.5, 0.3125, 0.4375, 0.5, 0.5}, -- Schienale
+			{-0.4375, -0.125, -0.4375, -0.3125, 7.45058e-09, 0.3125}, -- Bracciolo_Sinistro
+			{0.3125, -0.125, -0.4375, 0.4375, -3.72529e-09, 0.3125}, -- Bracciolo_Destro
+		}
+	}
+})
+
+
 
 
