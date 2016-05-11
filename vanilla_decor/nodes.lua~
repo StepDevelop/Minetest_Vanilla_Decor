@@ -918,12 +918,104 @@ minetest.register_node("vanilla_decor:carpet_yellow", {
 -------------------------------------------------------------------------------------------------------------------------
 
 
+----------
+-- VASI --
+----------
 
 
+minetest.register_node("vanilla_decor:flower_dandelion_white_pot", {
+	description = "Flower_Dandelion_White_Pot",
+	drawtype = "plantlike",
+	inventory_image = "flower_dandelion_white_pot.png",
+	tiles = {"flower_dandelion_white_pot.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = false,
+	climbable = false,	
+	stack_max = 250,
+	selection_box = {type = "regular"},
+	groups = {cracky=2, liquid=3, flammable=3},
+	sounds = default.node_sound_leaves_defaults(),
+	
+})
 
 
+minetest.register_node("vanilla_decor:flower_dandelion_yellow_pot", {
+	description = "Flower_Dandelion_Yellow_Pot",
+	drawtype = "plantlike",
+	inventory_image = "flower_dandelion_yellow_pot.png",
+	tiles = {"flower_dandelion_yellow_pot.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = false,
+	climbable = false,	
+	stack_max = 250,
+	selection_box = {type = "regular"},
+	groups = {cracky=2, liquid=3, flammable=3},
+	sounds = default.node_sound_leaves_defaults(),
+	
+})
 
 
+minetest.register_node("vanilla_decor:flower_rose_pot", {
+	description = "Flower_Rose_Pot",
+	drawtype = "plantlike",
+	inventory_image = "flower_rose_pot.png",
+	tiles = {"flower_rose_pot.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = false,
+	climbable = false,	
+	stack_max = 250,
+	selection_box = {type = "regular"},
+	groups = {cracky=2, liquid=3, flammable=3},
+	sounds = default.node_sound_leaves_defaults(),
+	
+})
+
+
+minetest.register_node("vanilla_decor:flower_tulip_pot", {
+	description = "Flower_Tulip_Pot",
+	drawtype = "plantlike",
+	inventory_image = "flower_tulip_pot.png",
+	tiles = {"flower_tulip_pot.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = false,
+	climbable = false,	
+	stack_max = 250,
+	selection_box = {type = "regular"},
+	groups = {cracky=2, liquid=3, flammable=3},
+	sounds = default.node_sound_leaves_defaults(),
+	
+})
+
+
+minetest.register_node("vanilla_decor:flower_viola_pot", {
+	description = "Flower_Viola_Pot",
+	drawtype = "plantlike",
+	inventory_image = "flower_viola_pot.png",
+	tiles = {"flower_viola_pot.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = false,
+	climbable = false,	
+	stack_max = 250,
+	selection_box = {type = "regular"},
+	groups = {cracky=2, liquid=3, flammable=3},
+	sounds = default.node_sound_leaves_defaults(),
+	
+})
 
 
 
