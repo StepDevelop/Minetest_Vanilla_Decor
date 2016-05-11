@@ -23,8 +23,7 @@ Changelog:<br>
 -- Add Tables (all wood)<br>
 -- Add Benches (all wood)<br>
 -- Add Carpets (all wood)<br>
--- Add Pot Flowers (graphics 2d, alpha version)
-<br>
+-- Add Pot Flowers (graphics 2d, alpha version)<br>
 <br>
 <br>
 ITALIAN:
@@ -39,6 +38,16 @@ Mi auguro che il mio lavoro sia di vostro gradimento. Il progetto è in continuo
 
 Grazie a tutti.<br>
 <br>
+<br>
+Changelog:<br>
+
+-- Aggiunto il vetro collegato (nodi continui, che genera il blocco di vetro senza bordi)<br>
+-- Aggiunto il selciato (stone, cobblestone, mossy cobblestone)<br>
+-- Aggiunte le sedie (tutti i legni)<br>
+-- Aggiunti i tavoli (tutti i legni)<br>
+-- Aggiunte le panchine (tutti i legni)<br>
+-- Aggiunti i tappeti (tutti i colori della lana)<br>
+-- Aggiunti i vasi di fiori (grafica 2d, in fase alpha, a breve includerò quelli 3d)<br>
 <br>
 <br>
  License:<br>
