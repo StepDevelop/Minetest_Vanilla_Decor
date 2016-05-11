@@ -1,9 +1,17 @@
 # Minetest_Vanilla_Decor
-
+<br>
 Mod decorated in classic style ;)
 <br>
 <br>
+This mod, including all blocks, and decorative objects, not present in the version Minetest "Vanilla".<br>
 
+Vanilla Decor, respects the graphic style of Minetest, is only it includes blocks, and decorative items integrated perfectly with the style of the game.<br>
+
+I hope that my work is to your liking. The project is in constant development, and in the future will improve, and will include new decorative elements.<br>
+
+Thank you all.<br>
+<br>
+<br>
 Changelog:<br>
 
 -- Add Glass Continued (node connected)<br>
