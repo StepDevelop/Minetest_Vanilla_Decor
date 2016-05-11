@@ -7,11 +7,12 @@ Mod decorated in classic style ;)
 Changelog:<br>
 
 -- Add Glass Continued (node connected)<br>
--- Add Paths (Stone, Cobblestone, Mossy Cobblestone)<br>
+-- Add Paths (stone, cobblestone, mossy cobblestone)<br>
 -- Add Chairs (all wood)<br>
 -- Add Tables (all wood)<br>
 -- Add Benches (all wood)<br>
--- Add Carpets (All wood)<br>
+-- Add Carpets (all wood)<br>
+-- Add Pot Flowers (graphics 2d, alpha version)
 <br>
 
 License:<br>
