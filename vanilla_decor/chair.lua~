@@ -28,7 +28,7 @@ minetest.register_node("vanilla_decor:chair_wooden_planks", {
 	drawtype = "nodebox",
 	tiles = {"default_wood.png"},
 	paramtype = "light",
-	paramtype2 = "facedir",
+	paramtype2 = "facedir",	
 	sunlight_propagates = true,
 	buildable_to = false,
 	walkable = true,

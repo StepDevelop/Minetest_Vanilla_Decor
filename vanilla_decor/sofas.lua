@@ -18,13 +18,8 @@
 --]]
 
 
---------------
--- POLTRONE --
---------------
-
-
-minetest.register_node("vanilla_decor:armchair_black", {
-	description = "Armchair_Black",
+minetest.register_node("vanilla_decor:sofa_black", {
+	description = "Sofa_Black",
 	drawtype = "nodebox",
 	tiles = {"wool_black.png"},
 	paramtype = "light",
@@ -39,17 +34,17 @@ minetest.register_node("vanilla_decor:armchair_black", {
 		node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.4375, -0.5, -0.4375, 0.4375, -0.125, 0.3125}, -- Base
-			{-0.4375, -0.5, 0.3125, 0.4375, 0.5, 0.5}, -- Schienale
-			{-0.4375, -0.125, -0.4375, -0.3125, 7.45058e-09, 0.3125}, -- Bracciolo_Sinistro
-			{0.3125, -0.125, -0.4375, 0.4375, -3.72529e-09, 0.3125}, -- Bracciolo_Destro
+			{-0.4375, -0.5, -0.4375, 1.4375, -0.125, 0.5}, -- Base
+			{-0.4375, -0.125, 0.3125, 1.4375, 0.5, 0.5}, -- Schienale
+			{-0.4375, -0.125, -0.4375, -0.25, 0.0625, 0.3125}, -- Bracciolo_Sinistro
+			{1.25, -0.125, -0.4375, 1.4375, 0.0625, 0.3125}, -- Bracciolo_Destro
 		}
 	}
 })
 
 
-minetest.register_node("vanilla_decor:armchair_blue", {
-	description = "Armchair_Blue",
+minetest.register_node("vanilla_decor:sofa_blue", {
+	description = "Sofa_Blue",
 	drawtype = "nodebox",
 	tiles = {"wool_blue.png"},
 	paramtype = "light",
@@ -64,17 +59,17 @@ minetest.register_node("vanilla_decor:armchair_blue", {
 		node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.4375, -0.5, -0.4375, 0.4375, -0.125, 0.5}, -- Base
-			{-0.4375, -0.125, 0.3125, 0.4375, 0.5, 0.5}, -- Schienale
-			{-0.4375, -0.125, -0.4375, -0.3125, 0.0625, 0.3125}, -- Bracciolo_Sinistro
-			{0.3125, -0.125, -0.4375, 0.4375, 0.0625, 0.3125}, -- Bracciolo_Destro
+			{-0.4375, -0.5, -0.4375, 1.4375, -0.125, 0.5}, -- Base
+			{-0.4375, -0.125, 0.3125, 1.4375, 0.5, 0.5}, -- Schienale
+			{-0.4375, -0.125, -0.4375, -0.25, 0.0625, 0.3125}, -- Bracciolo_Sinistro
+			{1.25, -0.125, -0.4375, 1.4375, 0.0625, 0.3125}, -- Bracciolo_Destro
 		}
 	}
 })
 
 
-minetest.register_node("vanilla_decor:armchair_brown", {
-	description = "Armchair_Brown",
+minetest.register_node("vanilla_decor:sofa_brown", {
+	description = "Sofa_Brown",
 	drawtype = "nodebox",
 	tiles = {"wool_brown.png"},
 	paramtype = "light",
@@ -89,18 +84,17 @@ minetest.register_node("vanilla_decor:armchair_brown", {
 		node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.4375, -0.5, -0.4375, 0.4375, -0.125, 0.5}, -- Base
-			{-0.4375, -0.125, 0.3125, 0.4375, 0.5, 0.5}, -- Schienale
-			{-0.4375, -0.125, -0.4375, -0.3125, 0.0625, 0.3125}, -- Bracciolo_Sinistro
-			{0.3125, -0.125, -0.4375, 0.4375, 0.0625, 0.3125}, -- Bracciolo_Destro
+			{-0.4375, -0.5, -0.4375, 1.4375, -0.125, 0.5}, -- Base
+			{-0.4375, -0.125, 0.3125, 1.4375, 0.5, 0.5}, -- Schienale
+			{-0.4375, -0.125, -0.4375, -0.25, 0.0625, 0.3125}, -- Bracciolo_Sinistro
+			{1.25, -0.125, -0.4375, 1.4375, 0.0625, 0.3125}, -- Bracciolo_Destro
 		}
 	}
 })
 
 
-
-minetest.register_node("vanilla_decor:armchair_cyan", {
-	description = "Armchair_Cyan",
+minetest.register_node("vanilla_decor:sofa_cyan", {
+	description = "Sofa_Cyan",
 	drawtype = "nodebox",
 	tiles = {"wool_cyan.png"},
 	paramtype = "light",
@@ -115,17 +109,17 @@ minetest.register_node("vanilla_decor:armchair_cyan", {
 		node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.4375, -0.5, -0.4375, 0.4375, -0.125, 0.5}, -- Base
-			{-0.4375, -0.125, 0.3125, 0.4375, 0.5, 0.5}, -- Schienale
-			{-0.4375, -0.125, -0.4375, -0.3125, 0.0625, 0.3125}, -- Bracciolo_Sinistro
-			{0.3125, -0.125, -0.4375, 0.4375, 0.0625, 0.3125}, -- Bracciolo_Destro
+			{-0.4375, -0.5, -0.4375, 1.4375, -0.125, 0.5}, -- Base
+			{-0.4375, -0.125, 0.3125, 1.4375, 0.5, 0.5}, -- Schienale
+			{-0.4375, -0.125, -0.4375, -0.25, 0.0625, 0.3125}, -- Bracciolo_Sinistro
+			{1.25, -0.125, -0.4375, 1.4375, 0.0625, 0.3125}, -- Bracciolo_Destro
 		}
 	}
 })
 
 
-minetest.register_node("vanilla_decor:armchair_dark_green", {
-	description = "Armchair_Dark_Green",
+minetest.register_node("vanilla_decor:sofa_dark_green", {
+	description = "Sofa_Dark_Green",
 	drawtype = "nodebox",
 	tiles = {"wool_dark_green.png"},
 	paramtype = "light",
@@ -140,17 +134,17 @@ minetest.register_node("vanilla_decor:armchair_dark_green", {
 		node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.4375, -0.5, -0.4375, 0.4375, -0.125, 0.5}, -- Base
-			{-0.4375, -0.125, 0.3125, 0.4375, 0.5, 0.5}, -- Schienale
-			{-0.4375, -0.125, -0.4375, -0.3125, 0.0625, 0.3125}, -- Bracciolo_Sinistro
-			{0.3125, -0.125, -0.4375, 0.4375, 0.0625, 0.3125}, -- Bracciolo_Destro
+			{-0.4375, -0.5, -0.4375, 1.4375, -0.125, 0.5}, -- Base
+			{-0.4375, -0.125, 0.3125, 1.4375, 0.5, 0.5}, -- Schienale
+			{-0.4375, -0.125, -0.4375, -0.25, 0.0625, 0.3125}, -- Bracciolo_Sinistro
+			{1.25, -0.125, -0.4375, 1.4375, 0.0625, 0.3125}, -- Bracciolo_Destro
 		}
 	}
 })
 
 
-minetest.register_node("vanilla_decor:armchair_dark_grey", {
-	description = "Armchair_Dark_Grey",
+minetest.register_node("vanilla_decor:sofa_dark_grey", {
+	description = "Sofa_Dark_Grey",
 	drawtype = "nodebox",
 	tiles = {"wool_dark_grey.png"},
 	paramtype = "light",
@@ -165,17 +159,17 @@ minetest.register_node("vanilla_decor:armchair_dark_grey", {
 		node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.4375, -0.5, -0.4375, 0.4375, -0.125, 0.5}, -- Base
-			{-0.4375, -0.125, 0.3125, 0.4375, 0.5, 0.5}, -- Schienale
-			{-0.4375, -0.125, -0.4375, -0.3125, 0.0625, 0.3125}, -- Bracciolo_Sinistro
-			{0.3125, -0.125, -0.4375, 0.4375, 0.0625, 0.3125}, -- Bracciolo_Destro
+			{-0.4375, -0.5, -0.4375, 1.4375, -0.125, 0.5}, -- Base
+			{-0.4375, -0.125, 0.3125, 1.4375, 0.5, 0.5}, -- Schienale
+			{-0.4375, -0.125, -0.4375, -0.25, 0.0625, 0.3125}, -- Bracciolo_Sinistro
+			{1.25, -0.125, -0.4375, 1.4375, 0.0625, 0.3125}, -- Bracciolo_Destro
 		}
 	}
 })
 
 
-minetest.register_node("vanilla_decor:armchair_green", {
-	description = "Armchair_Green",
+minetest.register_node("vanilla_decor:sofa_green", {
+	description = "Sofa_Green",
 	drawtype = "nodebox",
 	tiles = {"wool_green.png"},
 	paramtype = "light",
@@ -190,17 +184,17 @@ minetest.register_node("vanilla_decor:armchair_green", {
 		node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.4375, -0.5, -0.4375, 0.4375, -0.125, 0.5}, -- Base
-			{-0.4375, -0.125, 0.3125, 0.4375, 0.5, 0.5}, -- Schienale
-			{-0.4375, -0.125, -0.4375, -0.3125, 0.0625, 0.3125}, -- Bracciolo_Sinistro
-			{0.3125, -0.125, -0.4375, 0.4375, 0.0625, 0.3125}, -- Bracciolo_Destro
+			{-0.4375, -0.5, -0.4375, 1.4375, -0.125, 0.5}, -- Base
+			{-0.4375, -0.125, 0.3125, 1.4375, 0.5, 0.5}, -- Schienale
+			{-0.4375, -0.125, -0.4375, -0.25, 0.0625, 0.3125}, -- Bracciolo_Sinistro
+			{1.25, -0.125, -0.4375, 1.4375, 0.0625, 0.3125}, -- Bracciolo_Destro
 		}
 	}
 })
 
 
-minetest.register_node("vanilla_decor:armchair_grey", {
-	description = "Armchair_Grey",
+minetest.register_node("vanilla_decor:sofa_grey", {
+	description = "Sofa_Grey",
 	drawtype = "nodebox",
 	tiles = {"wool_grey.png"},
 	paramtype = "light",
@@ -215,17 +209,17 @@ minetest.register_node("vanilla_decor:armchair_grey", {
 		node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.4375, -0.5, -0.4375, 0.4375, -0.125, 0.5}, -- Base
-			{-0.4375, -0.125, 0.3125, 0.4375, 0.5, 0.5}, -- Schienale
-			{-0.4375, -0.125, -0.4375, -0.3125, 0.0625, 0.3125}, -- Bracciolo_Sinistro
-			{0.3125, -0.125, -0.4375, 0.4375, 0.0625, 0.3125}, -- Bracciolo_Destro
+			{-0.4375, -0.5, -0.4375, 1.4375, -0.125, 0.5}, -- Base
+			{-0.4375, -0.125, 0.3125, 1.4375, 0.5, 0.5}, -- Schienale
+			{-0.4375, -0.125, -0.4375, -0.25, 0.0625, 0.3125}, -- Bracciolo_Sinistro
+			{1.25, -0.125, -0.4375, 1.4375, 0.0625, 0.3125}, -- Bracciolo_Destro
 		}
 	}
 })
 
 
-minetest.register_node("vanilla_decor:armchair_magenta", {
-	description = "Armchair_Magenta",
+minetest.register_node("vanilla_decor:sofa_magenta", {
+	description = "Sofa_Magenta",
 	drawtype = "nodebox",
 	tiles = {"wool_magenta.png"},
 	paramtype = "light",
@@ -240,17 +234,17 @@ minetest.register_node("vanilla_decor:armchair_magenta", {
 		node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.4375, -0.5, -0.4375, 0.4375, -0.125, 0.5}, -- Base
-			{-0.4375, -0.125, 0.3125, 0.4375, 0.5, 0.5}, -- Schienale
-			{-0.4375, -0.125, -0.4375, -0.3125, 0.0625, 0.3125}, -- Bracciolo_Sinistro
-			{0.3125, -0.125, -0.4375, 0.4375, 0.0625, 0.3125}, -- Bracciolo_Destro
+			{-0.4375, -0.5, -0.4375, 1.4375, -0.125, 0.5}, -- Base
+			{-0.4375, -0.125, 0.3125, 1.4375, 0.5, 0.5}, -- Schienale
+			{-0.4375, -0.125, -0.4375, -0.25, 0.0625, 0.3125}, -- Bracciolo_Sinistro
+			{1.25, -0.125, -0.4375, 1.4375, 0.0625, 0.3125}, -- Bracciolo_Destro
 		}
 	}
 })
 
 
-minetest.register_node("vanilla_decor:armchair_orange", {
-	description = "Armchair_Orange",
+minetest.register_node("vanilla_decor:sofa_orange", {
+	description = "Sofa_Orange",
 	drawtype = "nodebox",
 	tiles = {"wool_orange.png"},
 	paramtype = "light",
@@ -265,16 +259,17 @@ minetest.register_node("vanilla_decor:armchair_orange", {
 		node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.4375, -0.5, -0.4375, 0.4375, -0.125, 0.5}, -- Base
-			{-0.4375, -0.125, 0.3125, 0.4375, 0.5, 0.5}, -- Schienale
-			{-0.4375, -0.125, -0.4375, -0.3125, 0.0625, 0.3125}, -- Bracciolo_Sinistro
-			{0.3125, -0.125, -0.4375, 0.4375, 0.0625, 0.3125}, -- Bracciolo_Destro
+			{-0.4375, -0.5, -0.4375, 1.4375, -0.125, 0.5}, -- Base
+			{-0.4375, -0.125, 0.3125, 1.4375, 0.5, 0.5}, -- Schienale
+			{-0.4375, -0.125, -0.4375, -0.25, 0.0625, 0.3125}, -- Bracciolo_Sinistro
+			{1.25, -0.125, -0.4375, 1.4375, 0.0625, 0.3125}, -- Bracciolo_Destro
 		}
 	}
 })
 
-minetest.register_node("vanilla_decor:armchair_pink", {
-	description = "Armchair_Pink",
+
+minetest.register_node("vanilla_decor:sofa_pink", {
+	description = "Sofa_Pink",
 	drawtype = "nodebox",
 	tiles = {"wool_pink.png"},
 	paramtype = "light",
@@ -289,17 +284,17 @@ minetest.register_node("vanilla_decor:armchair_pink", {
 		node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.4375, -0.5, -0.4375, 0.4375, -0.125, 0.5}, -- Base
-			{-0.4375, -0.125, 0.3125, 0.4375, 0.5, 0.5}, -- Schienale
-			{-0.4375, -0.125, -0.4375, -0.3125, 0.0625, 0.3125}, -- Bracciolo_Sinistro
-			{0.3125, -0.125, -0.4375, 0.4375, 0.0625, 0.3125}, -- Bracciolo_Destro
+			{-0.4375, -0.5, -0.4375, 1.4375, -0.125, 0.5}, -- Base
+			{-0.4375, -0.125, 0.3125, 1.4375, 0.5, 0.5}, -- Schienale
+			{-0.4375, -0.125, -0.4375, -0.25, 0.0625, 0.3125}, -- Bracciolo_Sinistro
+			{1.25, -0.125, -0.4375, 1.4375, 0.0625, 0.3125}, -- Bracciolo_Destro
 		}
 	}
 })
 
 
-minetest.register_node("vanilla_decor:armchair_red", {
-	description = "Armchair_Red",
+minetest.register_node("vanilla_decor:sofa_red", {
+	description = "Sofa_Red",
 	drawtype = "nodebox",
 	tiles = {"wool_red.png"},
 	paramtype = "light",
@@ -314,17 +309,17 @@ minetest.register_node("vanilla_decor:armchair_red", {
 		node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.4375, -0.5, -0.4375, 0.4375, -0.125, 0.5}, -- Base
-			{-0.4375, -0.125, 0.3125, 0.4375, 0.5, 0.5}, -- Schienale
-			{-0.4375, -0.125, -0.4375, -0.3125, 0.0625, 0.3125}, -- Bracciolo_Sinistro
-			{0.3125, -0.125, -0.4375, 0.4375, 0.0625, 0.3125}, -- Bracciolo_Destro
+			{-0.4375, -0.5, -0.4375, 1.4375, -0.125, 0.5}, -- Base
+			{-0.4375, -0.125, 0.3125, 1.4375, 0.5, 0.5}, -- Schienale
+			{-0.4375, -0.125, -0.4375, -0.25, 0.0625, 0.3125}, -- Bracciolo_Sinistro
+			{1.25, -0.125, -0.4375, 1.4375, 0.0625, 0.3125}, -- Bracciolo_Destro
 		}
 	}
 })
 
 
-minetest.register_node("vanilla_decor:armchair_violet", {
-	description = "Armchair_Violet",
+minetest.register_node("vanilla_decor:sofa_violet", {
+	description = "Sofa_Violet",
 	drawtype = "nodebox",
 	tiles = {"wool_violet.png"},
 	paramtype = "light",
@@ -339,17 +334,17 @@ minetest.register_node("vanilla_decor:armchair_violet", {
 		node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.4375, -0.5, -0.4375, 0.4375, -0.125, 0.5}, -- Base
-			{-0.4375, -0.125, 0.3125, 0.4375, 0.5, 0.5}, -- Schienale
-			{-0.4375, -0.125, -0.4375, -0.3125, 0.0625, 0.3125}, -- Bracciolo_Sinistro
-			{0.3125, -0.125, -0.4375, 0.4375, 0.0625, 0.3125}, -- Bracciolo_Destro
+			{-0.4375, -0.5, -0.4375, 1.4375, -0.125, 0.5}, -- Base
+			{-0.4375, -0.125, 0.3125, 1.4375, 0.5, 0.5}, -- Schienale
+			{-0.4375, -0.125, -0.4375, -0.25, 0.0625, 0.3125}, -- Bracciolo_Sinistro
+			{1.25, -0.125, -0.4375, 1.4375, 0.0625, 0.3125}, -- Bracciolo_Destro
 		}
 	}
 })
 
 
-minetest.register_node("vanilla_decor:armchair_white", {
-	description = "Armchair_White",
+minetest.register_node("vanilla_decor:sofa_white", {
+	description = "Sofa_White",
 	drawtype = "nodebox",
 	tiles = {"wool_white.png"},
 	paramtype = "light",
@@ -364,17 +359,17 @@ minetest.register_node("vanilla_decor:armchair_white", {
 		node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.4375, -0.5, -0.4375, 0.4375, -0.125, 0.5}, -- Base
-			{-0.4375, -0.125, 0.3125, 0.4375, 0.5, 0.5}, -- Schienale
-			{-0.4375, -0.125, -0.4375, -0.3125, 0.0625, 0.3125}, -- Bracciolo_Sinistro
-			{0.3125, -0.125, -0.4375, 0.4375, 0.0625, 0.3125}, -- Bracciolo_Destro
+			{-0.4375, -0.5, -0.4375, 1.4375, -0.125, 0.5}, -- Base
+			{-0.4375, -0.125, 0.3125, 1.4375, 0.5, 0.5}, -- Schienale
+			{-0.4375, -0.125, -0.4375, -0.25, 0.0625, 0.3125}, -- Bracciolo_Sinistro
+			{1.25, -0.125, -0.4375, 1.4375, 0.0625, 0.3125}, -- Bracciolo_Destro
 		}
 	}
 })
 
 
-minetest.register_node("vanilla_decor:armchair_yellow", {
-	description = "Armchair_Yellow",
+minetest.register_node("vanilla_decor:sofa_yellow", {
+	description = "Sofa_Yellow",
 	drawtype = "nodebox",
 	tiles = {"wool_yellow.png"},
 	paramtype = "light",
@@ -389,13 +384,14 @@ minetest.register_node("vanilla_decor:armchair_yellow", {
 		node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.4375, -0.5, -0.4375, 0.4375, -0.125, 0.5}, -- Base
-			{-0.4375, -0.125, 0.3125, 0.4375, 0.5, 0.5}, -- Schienale
-			{-0.4375, -0.125, -0.4375, -0.3125, 0.0625, 0.3125}, -- Bracciolo_Sinistro
-			{0.3125, -0.125, -0.4375, 0.4375, 0.0625, 0.3125}, -- Bracciolo_Destro
+			{-0.4375, -0.5, -0.4375, 1.4375, -0.125, 0.5}, -- Base
+			{-0.4375, -0.125, 0.3125, 1.4375, 0.5, 0.5}, -- Schienale
+			{-0.4375, -0.125, -0.4375, -0.25, 0.0625, 0.3125}, -- Bracciolo_Sinistro
+			{1.25, -0.125, -0.4375, 1.4375, 0.0625, 0.3125}, -- Bracciolo_Destro
 		}
 	}
 })
+
 
 
 

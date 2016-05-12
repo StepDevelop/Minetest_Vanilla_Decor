@@ -25,9 +25,16 @@ dofile(minetest.get_modpath('vanilla_decor')..'/chair.lua')
 dofile(minetest.get_modpath('vanilla_decor')..'/connected_glass.lua')
 dofile(minetest.get_modpath('vanilla_decor')..'/flowers_pot.lua')
 dofile(minetest.get_modpath('vanilla_decor')..'/paths.lua')
+dofile(minetest.get_modpath('vanilla_decor')..'/sofas.lua')
 dofile(minetest.get_modpath('vanilla_decor')..'/tables.lua')
 
 
 -- Crafting
 
 -- dofile(minetest.get_modpath('vanilla_decor')..'/crafting.lua')
+
+
+
+
+
+
