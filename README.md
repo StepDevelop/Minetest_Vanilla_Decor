@@ -17,13 +17,15 @@ Thank you all.<br>
 <br>
 Changelog (05/11/2016):<br>
 
--- Add Glass Continued (node connected)<br>
--- Add Paths (stone, cobblestone, mossy cobblestone)<br>
+-- Add Connected Glass (node connected)<br>
+-- Add Paths (stone, cobblestone, stone brick, mossy cobblestone, sandstone, sandstone brick, desert stone, desert stone brick, gravel)<br>
 -- Add Chairs (all wood)<br>
 -- Add Tables (all wood)<br>
 -- Add Benches (all wood)<br>
--- Add Carpets (all wood)<br>
+-- Add Carpets (all wool colors)<br>
 -- Add Pot Flowers (graphics 2d, flowers pot completely hand-drawn!)<br>
+-- Add Armchair (all wool colors)<br>
+-- Add Sofas (all wool colors)<br>
 <br>
 <br>
 ----------------------------------------------------------------------------------------------------------------------------------------------------<br>
@@ -50,6 +52,8 @@ Changelog (11/05/2016):<br>
 -- Aggiunte le panchine (tutti i legni)<br>
 -- Aggiunti i tappeti (tutti i colori della lana)<br>
 -- Aggiunti i vasi di fiori (grafica 2d, completamente ridisegnati a mano!)<br>
+-- Aggiunte le poltrone (tutti i colori della lana)<br>
+-- Aggiunti i divani (tutti i colori della lana)<br>
 <br>
 <br>
 ----------------------------------------------------------------------------------------------------------------------------------------------------<br>
