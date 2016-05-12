@@ -1,3 +1,7 @@
+[IMG]http://i1160.photobucket.com/albums/q487/Stephen_Peris/Minetest_Vanilla_Decor_Title_zpspipa9xsa.png[/IMG]
+<br>
+<br>
+<br>
 # Minetest_Vanilla_Decor
 <br>
 <br>
