@@ -37,9 +37,9 @@ dofile(minetest.get_modpath('vanilla_decor')..'/sofas_craft.lua')
 dofile(minetest.get_modpath('vanilla_decor')..'/benches_craft.lua')
 dofile(minetest.get_modpath('vanilla_decor')..'/carpets_craft.lua')
 dofile(minetest.get_modpath('vanilla_decor')..'/connected_glass_craft.lua')
---dofile(minetest.get_modpath('vanilla_decor')..'/craft.lua')
---dofile(minetest.get_modpath('vanilla_decor')..'/craft.lua')
---dofile(minetest.get_modpath('vanilla_decor')..'/craft.lua')
+dofile(minetest.get_modpath('vanilla_decor')..'/flowers_pot_craft.lua')
+dofile(minetest.get_modpath('vanilla_decor')..'/tables_craft.lua')
+--dofile(minetest.get_modpath('vanilla_decor')..'/paths_craft.lua')
 --dofile(minetest.get_modpath('vanilla_decor')..'/craft.lua')
 
 
