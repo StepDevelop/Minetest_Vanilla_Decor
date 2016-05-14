@@ -35,15 +35,20 @@ minetest.register_node("vanilla_decor:carpet_white", {
 	buildable_to = true,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
 	stack_max = 250,
+	groups = {snappy = 2,
+	choppy = 2,
+	oddly_breakable_by_hand = 3,
+	flammable = 3,	
+	-- not_in_creative_inventory = 1
+	attached_node = 1},
 	sounds = default.node_sound_defaults(),	
 		node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5} -- Carpet node
+			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}, -- Carpet node
 		}
-	}
+	}		
 })
 
 
@@ -60,15 +65,20 @@ minetest.register_node("vanilla_decor:carpet_black", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
 	stack_max = 250,
-	sounds = default.node_sound_defaults(),
+	groups = {snappy = 2,
+	choppy = 2,
+	oddly_breakable_by_hand = 3,
+	flammable = 3,	
+	-- not_in_creative_inventory = 1
+	attached_node = 1},
+	sounds = default.node_sound_defaults(),	
 		node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5} -- Carpet node
+			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}, -- Carpet node
 		}
-	}
+	}		
 })
 
 
@@ -85,15 +95,20 @@ minetest.register_node("vanilla_decor:carpet_blue", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
 	stack_max = 250,
-	sounds = default.node_sound_defaults(),
+	groups = {snappy = 2,
+	choppy = 2,
+	oddly_breakable_by_hand = 3,
+	flammable = 3,	
+	-- not_in_creative_inventory = 1
+	attached_node = 1},
+	sounds = default.node_sound_defaults(),	
 		node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5} -- Carpet node
+			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}, -- Carpet node
 		}
-	}
+	}		
 })
 
 
@@ -110,15 +125,20 @@ minetest.register_node("vanilla_decor:carpet_brown", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
 	stack_max = 250,
-	sounds = default.node_sound_defaults(),
+	groups = {snappy = 2,
+	choppy = 2,
+	oddly_breakable_by_hand = 3,
+	flammable = 3,	
+	-- not_in_creative_inventory = 1
+	attached_node = 1},
+	sounds = default.node_sound_defaults(),	
 		node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5} -- Carpet node
+			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}, -- Carpet node
 		}
-	}
+	}		
 })
 
 
@@ -135,15 +155,20 @@ minetest.register_node("vanilla_decor:carpet_cyan", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
 	stack_max = 250,
-	sounds = default.node_sound_defaults(),
+	groups = {snappy = 2,
+	choppy = 2,
+	oddly_breakable_by_hand = 3,
+	flammable = 3,	
+	-- not_in_creative_inventory = 1
+	attached_node = 1},
+	sounds = default.node_sound_defaults(),	
 		node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5} -- Carpet node
+			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}, -- Carpet node
 		}
-	}
+	}		
 })
 
 
@@ -160,15 +185,20 @@ minetest.register_node("vanilla_decor:carpet_dark_green", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
 	stack_max = 250,
-	sounds = default.node_sound_defaults(),
+	groups = {snappy = 2,
+	choppy = 2,
+	oddly_breakable_by_hand = 3,
+	flammable = 3,	
+	-- not_in_creative_inventory = 1
+	attached_node = 1},
+	sounds = default.node_sound_defaults(),	
 		node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5} -- Carpet node
+			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}, -- Carpet node
 		}
-	}
+	}		
 })
 
 
@@ -185,15 +215,20 @@ minetest.register_node("vanilla_decor:carpet_dark_grey", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
 	stack_max = 250,
-	sounds = default.node_sound_defaults(),
+	groups = {snappy = 2,
+	choppy = 2,
+	oddly_breakable_by_hand = 3,
+	flammable = 3,	
+	-- not_in_creative_inventory = 1
+	attached_node = 1},
+	sounds = default.node_sound_defaults(),	
 		node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5} -- Carpet node
+			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}, -- Carpet node
 		}
-	}
+	}		
 })
 
 
@@ -210,15 +245,20 @@ minetest.register_node("vanilla_decor:carpet_green", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
 	stack_max = 250,
-	sounds = default.node_sound_defaults(),
+	groups = {snappy = 2,
+	choppy = 2,
+	oddly_breakable_by_hand = 3,
+	flammable = 3,	
+	-- not_in_creative_inventory = 1
+	attached_node = 1},
+	sounds = default.node_sound_defaults(),	
 		node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5} -- Carpet node
+			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}, -- Carpet node
 		}
-	}
+	}		
 })
 
 
@@ -235,15 +275,20 @@ minetest.register_node("vanilla_decor:carpet_grey", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
 	stack_max = 250,
-	sounds = default.node_sound_defaults(),
+	groups = {snappy = 2,
+	choppy = 2,
+	oddly_breakable_by_hand = 3,
+	flammable = 3,	
+	-- not_in_creative_inventory = 1
+	attached_node = 1},
+	sounds = default.node_sound_defaults(),	
 		node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5} -- Carpet node
+			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}, -- Carpet node
 		}
-	}
+	}		
 })
 
 
@@ -260,15 +305,20 @@ minetest.register_node("vanilla_decor:carpet_magenta", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
 	stack_max = 250,
-	sounds = default.node_sound_defaults(),
+	groups = {snappy = 2,
+	choppy = 2,
+	oddly_breakable_by_hand = 3,
+	flammable = 3,	
+	-- not_in_creative_inventory = 1
+	attached_node = 1},
+	sounds = default.node_sound_defaults(),	
 		node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5} -- Carpet node
+			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}, -- Carpet node
 		}
-	}
+	}		
 })
 
 
@@ -285,15 +335,20 @@ minetest.register_node("vanilla_decor:carpet_orange", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
 	stack_max = 250,
-	sounds = default.node_sound_defaults(),
+	groups = {snappy = 2,
+	choppy = 2,
+	oddly_breakable_by_hand = 3,
+	flammable = 3,	
+	-- not_in_creative_inventory = 1
+	attached_node = 1},
+	sounds = default.node_sound_defaults(),	
 		node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5} -- Carpet node
+			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}, -- Carpet node
 		}
-	}
+	}		
 })
 
 
@@ -310,15 +365,20 @@ minetest.register_node("vanilla_decor:carpet_pink", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
 	stack_max = 250,
-	sounds = default.node_sound_defaults(),
+	groups = {snappy = 2,
+	choppy = 2,
+	oddly_breakable_by_hand = 3,
+	flammable = 3,	
+	-- not_in_creative_inventory = 1
+	attached_node = 1},
+	sounds = default.node_sound_defaults(),	
 		node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5} -- Carpet node
+			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}, -- Carpet node
 		}
-	}
+	}		
 })
 
 
@@ -335,15 +395,20 @@ minetest.register_node("vanilla_decor:carpet_red", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
 	stack_max = 250,
-	sounds = default.node_sound_defaults(),
+	groups = {snappy = 2,
+	choppy = 2,
+	oddly_breakable_by_hand = 3,
+	flammable = 3,	
+	-- not_in_creative_inventory = 1
+	attached_node = 1},
+	sounds = default.node_sound_defaults(),	
 		node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5} -- Carpet node
+			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}, -- Carpet node
 		}
-	}
+	}		
 })
 
 
@@ -360,15 +425,20 @@ minetest.register_node("vanilla_decor:carpet_violet", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
 	stack_max = 250,
-	sounds = default.node_sound_defaults(),
+	groups = {snappy = 2,
+	choppy = 2,
+	oddly_breakable_by_hand = 3,
+	flammable = 3,	
+	-- not_in_creative_inventory = 1
+	attached_node = 1},
+	sounds = default.node_sound_defaults(),	
 		node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5} -- Carpet node
+			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}, -- Carpet node
 		}
-	}
+	}		
 })
 
 
@@ -385,15 +455,20 @@ minetest.register_node("vanilla_decor:carpet_yellow", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
 	stack_max = 250,
-	sounds = default.node_sound_defaults(),
+	groups = {snappy = 2,
+	choppy = 2,
+	oddly_breakable_by_hand = 3,
+	flammable = 3,	
+	-- not_in_creative_inventory = 1
+	attached_node = 1},
+	sounds = default.node_sound_defaults(),	
 		node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5} -- Carpet node
+			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}, -- Carpet node
 		}
-	}
+	}		
 })
 
 

@@ -19,7 +19,7 @@
 
 
 minetest.register_node("vanilla_decor:sofa_black", {
-	description = "Sofa_Black",
+	description = "Sofa Black",
 	drawtype = "nodebox",
 	tiles = {"wool_black.png"},
 	paramtype = "light",
@@ -44,7 +44,7 @@ minetest.register_node("vanilla_decor:sofa_black", {
 
 
 minetest.register_node("vanilla_decor:sofa_blue", {
-	description = "Sofa_Blue",
+	description = "Sofa Blue",
 	drawtype = "nodebox",
 	tiles = {"wool_blue.png"},
 	paramtype = "light",
@@ -69,7 +69,7 @@ minetest.register_node("vanilla_decor:sofa_blue", {
 
 
 minetest.register_node("vanilla_decor:sofa_brown", {
-	description = "Sofa_Brown",
+	description = "Sofa Brown",
 	drawtype = "nodebox",
 	tiles = {"wool_brown.png"},
 	paramtype = "light",
@@ -94,7 +94,7 @@ minetest.register_node("vanilla_decor:sofa_brown", {
 
 
 minetest.register_node("vanilla_decor:sofa_cyan", {
-	description = "Sofa_Cyan",
+	description = "Sofa Cyan",
 	drawtype = "nodebox",
 	tiles = {"wool_cyan.png"},
 	paramtype = "light",
@@ -119,7 +119,7 @@ minetest.register_node("vanilla_decor:sofa_cyan", {
 
 
 minetest.register_node("vanilla_decor:sofa_dark_green", {
-	description = "Sofa_Dark_Green",
+	description = "Sofa Dark Green",
 	drawtype = "nodebox",
 	tiles = {"wool_dark_green.png"},
 	paramtype = "light",
@@ -144,7 +144,7 @@ minetest.register_node("vanilla_decor:sofa_dark_green", {
 
 
 minetest.register_node("vanilla_decor:sofa_dark_grey", {
-	description = "Sofa_Dark_Grey",
+	description = "Sofa Dark Grey",
 	drawtype = "nodebox",
 	tiles = {"wool_dark_grey.png"},
 	paramtype = "light",
@@ -169,7 +169,7 @@ minetest.register_node("vanilla_decor:sofa_dark_grey", {
 
 
 minetest.register_node("vanilla_decor:sofa_green", {
-	description = "Sofa_Green",
+	description = "Sofa Green",
 	drawtype = "nodebox",
 	tiles = {"wool_green.png"},
 	paramtype = "light",
@@ -194,7 +194,7 @@ minetest.register_node("vanilla_decor:sofa_green", {
 
 
 minetest.register_node("vanilla_decor:sofa_grey", {
-	description = "Sofa_Grey",
+	description = "Sofa Grey",
 	drawtype = "nodebox",
 	tiles = {"wool_grey.png"},
 	paramtype = "light",
@@ -219,7 +219,7 @@ minetest.register_node("vanilla_decor:sofa_grey", {
 
 
 minetest.register_node("vanilla_decor:sofa_magenta", {
-	description = "Sofa_Magenta",
+	description = "Sofa Magenta",
 	drawtype = "nodebox",
 	tiles = {"wool_magenta.png"},
 	paramtype = "light",
@@ -244,7 +244,7 @@ minetest.register_node("vanilla_decor:sofa_magenta", {
 
 
 minetest.register_node("vanilla_decor:sofa_orange", {
-	description = "Sofa_Orange",
+	description = "Sofa Orange",
 	drawtype = "nodebox",
 	tiles = {"wool_orange.png"},
 	paramtype = "light",
@@ -269,7 +269,7 @@ minetest.register_node("vanilla_decor:sofa_orange", {
 
 
 minetest.register_node("vanilla_decor:sofa_pink", {
-	description = "Sofa_Pink",
+	description = "Sofa Pink",
 	drawtype = "nodebox",
 	tiles = {"wool_pink.png"},
 	paramtype = "light",
@@ -294,7 +294,7 @@ minetest.register_node("vanilla_decor:sofa_pink", {
 
 
 minetest.register_node("vanilla_decor:sofa_red", {
-	description = "Sofa_Red",
+	description = "Sofa Red",
 	drawtype = "nodebox",
 	tiles = {"wool_red.png"},
 	paramtype = "light",
@@ -319,7 +319,7 @@ minetest.register_node("vanilla_decor:sofa_red", {
 
 
 minetest.register_node("vanilla_decor:sofa_violet", {
-	description = "Sofa_Violet",
+	description = "Sofa Violet",
 	drawtype = "nodebox",
 	tiles = {"wool_violet.png"},
 	paramtype = "light",
@@ -344,7 +344,7 @@ minetest.register_node("vanilla_decor:sofa_violet", {
 
 
 minetest.register_node("vanilla_decor:sofa_white", {
-	description = "Sofa_White",
+	description = "Sofa White",
 	drawtype = "nodebox",
 	tiles = {"wool_white.png"},
 	paramtype = "light",
@@ -369,7 +369,7 @@ minetest.register_node("vanilla_decor:sofa_white", {
 
 
 minetest.register_node("vanilla_decor:sofa_yellow", {
-	description = "Sofa_Yellow",
+	description = "Sofa Yellow",
 	drawtype = "nodebox",
 	tiles = {"wool_yellow.png"},
 	paramtype = "light",

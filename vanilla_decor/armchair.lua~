@@ -24,7 +24,7 @@
 
 
 minetest.register_node("vanilla_decor:armchair_black", {
-	description = "Armchair_Black",
+	description = "Armchair Black",
 	drawtype = "nodebox",
 	tiles = {"wool_black.png"},
 	paramtype = "light",
@@ -49,7 +49,7 @@ minetest.register_node("vanilla_decor:armchair_black", {
 
 
 minetest.register_node("vanilla_decor:armchair_blue", {
-	description = "Armchair_Blue",
+	description = "Armchair Blue",
 	drawtype = "nodebox",
 	tiles = {"wool_blue.png"},
 	paramtype = "light",
@@ -74,7 +74,7 @@ minetest.register_node("vanilla_decor:armchair_blue", {
 
 
 minetest.register_node("vanilla_decor:armchair_brown", {
-	description = "Armchair_Brown",
+	description = "Armchair Brown",
 	drawtype = "nodebox",
 	tiles = {"wool_brown.png"},
 	paramtype = "light",
@@ -100,7 +100,7 @@ minetest.register_node("vanilla_decor:armchair_brown", {
 
 
 minetest.register_node("vanilla_decor:armchair_cyan", {
-	description = "Armchair_Cyan",
+	description = "Armchair Cyan",
 	drawtype = "nodebox",
 	tiles = {"wool_cyan.png"},
 	paramtype = "light",
@@ -125,7 +125,7 @@ minetest.register_node("vanilla_decor:armchair_cyan", {
 
 
 minetest.register_node("vanilla_decor:armchair_dark_green", {
-	description = "Armchair_Dark_Green",
+	description = "Armchair Dark Green",
 	drawtype = "nodebox",
 	tiles = {"wool_dark_green.png"},
 	paramtype = "light",
@@ -150,7 +150,7 @@ minetest.register_node("vanilla_decor:armchair_dark_green", {
 
 
 minetest.register_node("vanilla_decor:armchair_dark_grey", {
-	description = "Armchair_Dark_Grey",
+	description = "Armchair Dark Grey",
 	drawtype = "nodebox",
 	tiles = {"wool_dark_grey.png"},
 	paramtype = "light",
@@ -175,7 +175,7 @@ minetest.register_node("vanilla_decor:armchair_dark_grey", {
 
 
 minetest.register_node("vanilla_decor:armchair_green", {
-	description = "Armchair_Green",
+	description = "Armchair Green",
 	drawtype = "nodebox",
 	tiles = {"wool_green.png"},
 	paramtype = "light",
@@ -200,7 +200,7 @@ minetest.register_node("vanilla_decor:armchair_green", {
 
 
 minetest.register_node("vanilla_decor:armchair_grey", {
-	description = "Armchair_Grey",
+	description = "Armchair Grey",
 	drawtype = "nodebox",
 	tiles = {"wool_grey.png"},
 	paramtype = "light",
@@ -225,7 +225,7 @@ minetest.register_node("vanilla_decor:armchair_grey", {
 
 
 minetest.register_node("vanilla_decor:armchair_magenta", {
-	description = "Armchair_Magenta",
+	description = "Armchair Magenta",
 	drawtype = "nodebox",
 	tiles = {"wool_magenta.png"},
 	paramtype = "light",
@@ -250,7 +250,7 @@ minetest.register_node("vanilla_decor:armchair_magenta", {
 
 
 minetest.register_node("vanilla_decor:armchair_orange", {
-	description = "Armchair_Orange",
+	description = "Armchair Orange",
 	drawtype = "nodebox",
 	tiles = {"wool_orange.png"},
 	paramtype = "light",
@@ -274,7 +274,7 @@ minetest.register_node("vanilla_decor:armchair_orange", {
 })
 
 minetest.register_node("vanilla_decor:armchair_pink", {
-	description = "Armchair_Pink",
+	description = "Armchair Pink",
 	drawtype = "nodebox",
 	tiles = {"wool_pink.png"},
 	paramtype = "light",
@@ -299,7 +299,7 @@ minetest.register_node("vanilla_decor:armchair_pink", {
 
 
 minetest.register_node("vanilla_decor:armchair_red", {
-	description = "Armchair_Red",
+	description = "Armchair Red",
 	drawtype = "nodebox",
 	tiles = {"wool_red.png"},
 	paramtype = "light",
@@ -324,7 +324,7 @@ minetest.register_node("vanilla_decor:armchair_red", {
 
 
 minetest.register_node("vanilla_decor:armchair_violet", {
-	description = "Armchair_Violet",
+	description = "Armchair Violet",
 	drawtype = "nodebox",
 	tiles = {"wool_violet.png"},
 	paramtype = "light",
@@ -349,7 +349,7 @@ minetest.register_node("vanilla_decor:armchair_violet", {
 
 
 minetest.register_node("vanilla_decor:armchair_white", {
-	description = "Armchair_White",
+	description = "Armchair White",
 	drawtype = "nodebox",
 	tiles = {"wool_white.png"},
 	paramtype = "light",
@@ -374,7 +374,7 @@ minetest.register_node("vanilla_decor:armchair_white", {
 
 
 minetest.register_node("vanilla_decor:armchair_yellow", {
-	description = "Armchair_Yellow",
+	description = "Armchair Yellow",
 	drawtype = "nodebox",
 	tiles = {"wool_yellow.png"},
 	paramtype = "light",
