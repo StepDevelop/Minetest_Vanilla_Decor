@@ -23,13 +23,16 @@
 -------------
 
 minetest.register_node("vanilla_decor:carpet_white", {
-	description = "Carpet_White",
+	description = "Carpet White",
 	drawtype = "nodebox",
 	tiles = {"wool_white.png"},
+	inventory_image = "wool_white.png",
+	wield_image = "wool_white.png",
+	is_ground_content = true,
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
-	buildable_to = false,
+	buildable_to = true,
 	walkable = true,
 	climbable = false,
 	groups = {cracky=3},
@@ -45,9 +48,12 @@ minetest.register_node("vanilla_decor:carpet_white", {
 
 
 minetest.register_node("vanilla_decor:carpet_black", {
-	description = "Carpet_Black",
+	description = "Carpet Black",
 	drawtype = "nodebox",
 	tiles = {"wool_black.png"},
+	inventory_image = "wool_black.png",
+	wield_image = "wool_black.png",
+	is_ground_content = true,
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
@@ -67,9 +73,12 @@ minetest.register_node("vanilla_decor:carpet_black", {
 
 
 minetest.register_node("vanilla_decor:carpet_blue", {
-	description = "Carpet_Blue",
+	description = "Carpet Blue",
 	drawtype = "nodebox",
 	tiles = {"wool_blue.png"},
+	inventory_image = "wool_blue.png",
+	wield_image = "wool_blue.png",
+	is_ground_content = true,
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
@@ -89,9 +98,12 @@ minetest.register_node("vanilla_decor:carpet_blue", {
 
 
 minetest.register_node("vanilla_decor:carpet_brown", {
-	description = "Carpet_Brown",
+	description = "Carpet Brown",
 	drawtype = "nodebox",
 	tiles = {"wool_brown.png"},
+	inventory_image = "wool_brown.png",
+	wield_image = "wool_brown.png",
+	is_ground_content = true,
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
@@ -111,9 +123,12 @@ minetest.register_node("vanilla_decor:carpet_brown", {
 
 
 minetest.register_node("vanilla_decor:carpet_cyan", {
-	description = "Carpet_Cyan",
+	description = "Carpet Cyan",
 	drawtype = "nodebox",
 	tiles = {"wool_cyan.png"},
+	inventory_image = "wool_cyan.png",
+	wield_image = "wool_cyan.png",
+	is_ground_content = true,
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
@@ -133,9 +148,12 @@ minetest.register_node("vanilla_decor:carpet_cyan", {
 
 
 minetest.register_node("vanilla_decor:carpet_dark_green", {
-	description = "Carpet_Dark_Green",
+	description = "Carpet Dark Green",
 	drawtype = "nodebox",
 	tiles = {"wool_dark_green.png"},
+	inventory_image = "wool_dark_green.png",
+	wield_image = "wool_dark_green.png",
+	is_ground_content = true,
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
@@ -155,9 +173,12 @@ minetest.register_node("vanilla_decor:carpet_dark_green", {
 
 
 minetest.register_node("vanilla_decor:carpet_dark_grey", {
-	description = "Carpet_Dark_Grey",
+	description = "Carpet Dark Grey",
 	drawtype = "nodebox",
 	tiles = {"wool_dark_grey.png"},
+	inventory_image = "wool_dark_grey.png",
+	wield_image = "wool_dark_grey.png",
+	is_ground_content = true,
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
@@ -177,9 +198,12 @@ minetest.register_node("vanilla_decor:carpet_dark_grey", {
 
 
 minetest.register_node("vanilla_decor:carpet_green", {
-	description = "Carpet_Green",
+	description = "Carpet Green",
 	drawtype = "nodebox",
 	tiles = {"wool_green.png"},
+	inventory_image = "wool_green.png",
+	wield_image = "wool_green.png",
+	is_ground_content = true,
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
@@ -199,9 +223,12 @@ minetest.register_node("vanilla_decor:carpet_green", {
 
 
 minetest.register_node("vanilla_decor:carpet_grey", {
-	description = "Carpet_Grey",
+	description = "Carpet Grey",
 	drawtype = "nodebox",
 	tiles = {"wool_grey.png"},
+	inventory_image = "wool_grey.png",
+	wield_image = "wool_grey.png",
+	is_ground_content = true,
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
@@ -221,9 +248,12 @@ minetest.register_node("vanilla_decor:carpet_grey", {
 
 
 minetest.register_node("vanilla_decor:carpet_magenta", {
-	description = "Carpet_Magenta",
+	description = "Carpet Magenta",
 	drawtype = "nodebox",
 	tiles = {"wool_magenta.png"},
+	inventory_image = "wool_magenta.png",
+	wield_image = "wool_magenta.png",
+	is_ground_content = true,
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
@@ -243,9 +273,12 @@ minetest.register_node("vanilla_decor:carpet_magenta", {
 
 
 minetest.register_node("vanilla_decor:carpet_orange", {
-	description = "Carpet_Orange",
+	description = "Carpet Orange",
 	drawtype = "nodebox",
 	tiles = {"wool_orange.png"},
+	inventory_image = "wool_orange.png",
+	wield_image = "wool_orange.png",
+	is_ground_content = true,
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
@@ -265,9 +298,12 @@ minetest.register_node("vanilla_decor:carpet_orange", {
 
 
 minetest.register_node("vanilla_decor:carpet_pink", {
-	description = "Carpet_Pink",
+	description = "Carpet Pink",
 	drawtype = "nodebox",
 	tiles = {"wool_pink.png"},
+	inventory_image = "wool_pink.png",
+	wield_image = "wool_pink.png",
+	is_ground_content = true,
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
@@ -287,9 +323,12 @@ minetest.register_node("vanilla_decor:carpet_pink", {
 
 
 minetest.register_node("vanilla_decor:carpet_red", {
-	description = "Carpet_Red",
+	description = "Carpet Red",
 	drawtype = "nodebox",
 	tiles = {"wool_red.png"},
+	inventory_image = "wool_red.png",
+	wield_image = "wool_red.png",
+	is_ground_content = true,
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
@@ -309,9 +348,12 @@ minetest.register_node("vanilla_decor:carpet_red", {
 
 
 minetest.register_node("vanilla_decor:carpet_violet", {
-	description = "Carpet_Violet",
+	description = "Carpet Violet",
 	drawtype = "nodebox",
 	tiles = {"wool_violet.png"},
+	inventory_image = "wool_violet.png",
+	wield_image = "wool_violet.png",
+	is_ground_content = true,
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
@@ -331,9 +373,12 @@ minetest.register_node("vanilla_decor:carpet_violet", {
 
 
 minetest.register_node("vanilla_decor:carpet_yellow", {
-	description = "Carpet_Yellow",
+	description = "Carpet Yellow",
 	drawtype = "nodebox",
 	tiles = {"wool_yellow.png"},
+	inventory_image = "wool_yellow.png",
+	wield_image = "wool_yellow.png",
+	is_ground_content = true,
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,

@@ -17,6 +17,7 @@
 
 --]]
 
+-- Nodes
 
 dofile(minetest.get_modpath('vanilla_decor')..'/armchair.lua')
 dofile(minetest.get_modpath('vanilla_decor')..'/benches.lua')
@@ -31,7 +32,15 @@ dofile(minetest.get_modpath('vanilla_decor')..'/tables.lua')
 
 -- Crafting
 
--- dofile(minetest.get_modpath('vanilla_decor')..'/crafting.lua')
+dofile(minetest.get_modpath('vanilla_decor')..'/armchair_craft.lua')
+dofile(minetest.get_modpath('vanilla_decor')..'/sofas_craft.lua')
+--dofile(minetest.get_modpath('vanilla_decor')..'/craft.lua')
+--dofile(minetest.get_modpath('vanilla_decor')..'/craft.lua')
+--dofile(minetest.get_modpath('vanilla_decor')..'/craft.lua')
+--dofile(minetest.get_modpath('vanilla_decor')..'/craft.lua')
+--dofile(minetest.get_modpath('vanilla_decor')..'/craft.lua')
+--dofile(minetest.get_modpath('vanilla_decor')..'/craft.lua')
+--dofile(minetest.get_modpath('vanilla_decor')..'/craft.lua')
 
 
 
