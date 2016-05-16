@@ -33,7 +33,7 @@ minetest.register_node("vanilla_decor:bench_wooden_planks", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_stone_defaults(),
 		node_box = {
@@ -57,7 +57,7 @@ minetest.register_node("vanilla_decor:bench_pine_wood", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_stone_defaults(),
 		node_box = {
@@ -81,7 +81,7 @@ minetest.register_node("vanilla_decor:bench_acacia_wood", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_stone_defaults(),
 		node_box = {
@@ -105,7 +105,7 @@ minetest.register_node("vanilla_decor:bench_aspen_wood", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_stone_defaults(),
 		node_box = {
@@ -129,7 +129,7 @@ minetest.register_node("vanilla_decor:bench_jungle_wood", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_stone_defaults(),
 		node_box = {

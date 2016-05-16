@@ -25,7 +25,7 @@ minetest.register_node( "vanilla_decor:glowcrystal_block", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	light_source = 14,
-	groups = {choppy = 2, oddly_breakable_by_hand = 3, attached_node = 1},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	legacy_wallmounted = true,	
 	sounds = default.node_sound_stone_defaults(),
 })
@@ -40,20 +40,41 @@ minetest.register_node( "vanilla_decor:lamp", {
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
 	--light_source = 14,
-	groups = {choppy = 2, oddly_breakable_by_hand = 3, attached_node = 1},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	legacy_wallmounted = true,
 	sounds = default.node_sound_wood_defaults(),
 	node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.1875, -0.1875, 0.4375, 0.1875, 0.1875, 0.5}, -- Sostegno
-			{-0.0625, -0.0625, -0.0625, 0.0625, 0.0625, 0.5}, -- Porta_lampada
-			{-0.0625, -0.4375, -0.0625, 0.0625, -0.0625003, 0.0625},
-			{-0.25, -0.5, -0.25, 0.25, -0.4375, 0.25},
-			{-0.1875, -0.5, -0.1875, 0.1875, -0.375, 0.1875},
-			{-0.125, -0.5, -0.125, 0.125, -0.3125, 0.125},	
+			{-0.3125, -0.3125, 0.4375, 0.3125, 0.3125, 0.5}, -- NodeBox1
+			{-0.1875, -0.1875, 0.375, 0.1875, 0.1875, 0.4375}, -- NodeBox2
+			{-0.0625, -0.0625, 0.0625, 0.0625, 0.0625, 0.4375}, -- NodeBox3
+			{-0.0625, -0.0625, -0.0625, 0.0625, 0.375, 0.0625}, -- NodeBox4
+			{-0.1875, 0.4375, -0.1875, 0.1875, 0.5, 0.1875}, -- NodeBox5
+			{-0.125, 0.375, -0.125, 0.125, 0.4375, 0.125}, -- NodeBox6	
 		}
 	}		
+})
+
+
+minetest.register_node( "vanilla_decor:glow_tiny", {
+	description = "Glowing Crystal tiny",
+	tile_images = { "light_green.png" },
+	drawtype = "nodebox",
+	is_ground_content = true,
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	light_source = 14,
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
+	legacy_wallmounted = true,
+	sounds = default.node_sound_stone_defaults(),
+	node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.25, -0.5, 0, 0.25, 1.49012e-08, 0.5}, -- Light
+		}
+	}				
 })
 
 
@@ -66,14 +87,13 @@ minetest.register_node( "vanilla_decor:glow_tiny_center", {
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
 	light_source = 14,
-	groups = {choppy = 2, oddly_breakable_by_hand = 3, attached_node = 1},
-	legacy_wallmounted = true,
-	oddly_breakable_by_hand = 3,
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
+	legacy_wallmounted = true,	
 	sounds = default.node_sound_stone_defaults(),
 	node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.125, 0.25, -0.125, 0.125, 0.5, 0.125}, -- Light
+			{-0.125, -0.5, 0.25, 0.125, -0.25, 0.5}, -- Light
 		}
 	}				
 })

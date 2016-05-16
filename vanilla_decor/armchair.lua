@@ -33,7 +33,7 @@ minetest.register_node("vanilla_decor:armchair_black", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_defaults(),
 		node_box = {
@@ -58,7 +58,7 @@ minetest.register_node("vanilla_decor:armchair_blue", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_defaults(),
 		node_box = {
@@ -83,7 +83,7 @@ minetest.register_node("vanilla_decor:armchair_brown", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_defaults(),
 		node_box = {
@@ -109,7 +109,7 @@ minetest.register_node("vanilla_decor:armchair_cyan", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_defaults(),
 		node_box = {
@@ -134,7 +134,7 @@ minetest.register_node("vanilla_decor:armchair_dark_green", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_defaults(),
 		node_box = {
@@ -159,7 +159,7 @@ minetest.register_node("vanilla_decor:armchair_dark_grey", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_defaults(),
 		node_box = {
@@ -184,7 +184,7 @@ minetest.register_node("vanilla_decor:armchair_green", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_defaults(),
 		node_box = {
@@ -209,7 +209,7 @@ minetest.register_node("vanilla_decor:armchair_grey", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_defaults(),
 		node_box = {
@@ -234,7 +234,7 @@ minetest.register_node("vanilla_decor:armchair_magenta", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_defaults(),
 		node_box = {
@@ -259,7 +259,7 @@ minetest.register_node("vanilla_decor:armchair_orange", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_defaults(),
 		node_box = {
@@ -283,7 +283,7 @@ minetest.register_node("vanilla_decor:armchair_pink", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_defaults(),
 		node_box = {
@@ -308,7 +308,7 @@ minetest.register_node("vanilla_decor:armchair_red", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_defaults(),
 		node_box = {
@@ -333,7 +333,7 @@ minetest.register_node("vanilla_decor:armchair_violet", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_defaults(),
 		node_box = {
@@ -358,7 +358,7 @@ minetest.register_node("vanilla_decor:armchair_white", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_defaults(),
 		node_box = {
@@ -383,7 +383,7 @@ minetest.register_node("vanilla_decor:armchair_yellow", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_defaults(),
 		node_box = {

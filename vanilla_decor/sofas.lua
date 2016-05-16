@@ -28,7 +28,7 @@ minetest.register_node("vanilla_decor:sofa_black", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 2, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_defaults(),
 		node_box = {
@@ -53,7 +53,7 @@ minetest.register_node("vanilla_decor:sofa_blue", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 2, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_defaults(),
 		node_box = {
@@ -78,7 +78,7 @@ minetest.register_node("vanilla_decor:sofa_brown", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 2, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_defaults(),
 		node_box = {
@@ -103,7 +103,7 @@ minetest.register_node("vanilla_decor:sofa_cyan", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 2, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_defaults(),
 		node_box = {
@@ -128,7 +128,7 @@ minetest.register_node("vanilla_decor:sofa_dark_green", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 2, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_defaults(),
 		node_box = {
@@ -153,7 +153,7 @@ minetest.register_node("vanilla_decor:sofa_dark_grey", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 2, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_defaults(),
 		node_box = {
@@ -178,7 +178,7 @@ minetest.register_node("vanilla_decor:sofa_green", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 2, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_defaults(),
 		node_box = {
@@ -203,7 +203,7 @@ minetest.register_node("vanilla_decor:sofa_grey", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 2, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_defaults(),
 		node_box = {
@@ -228,7 +228,7 @@ minetest.register_node("vanilla_decor:sofa_magenta", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 2, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_defaults(),
 		node_box = {
@@ -253,7 +253,7 @@ minetest.register_node("vanilla_decor:sofa_orange", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 2, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_defaults(),
 		node_box = {
@@ -278,7 +278,7 @@ minetest.register_node("vanilla_decor:sofa_pink", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 2, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_defaults(),
 		node_box = {
@@ -303,7 +303,7 @@ minetest.register_node("vanilla_decor:sofa_red", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 2, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_defaults(),
 		node_box = {
@@ -328,7 +328,7 @@ minetest.register_node("vanilla_decor:sofa_violet", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 2, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_defaults(),
 		node_box = {
@@ -353,7 +353,7 @@ minetest.register_node("vanilla_decor:sofa_white", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 2, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_defaults(),
 		node_box = {
@@ -378,7 +378,7 @@ minetest.register_node("vanilla_decor:sofa_yellow", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 2, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_defaults(),
 		node_box = {

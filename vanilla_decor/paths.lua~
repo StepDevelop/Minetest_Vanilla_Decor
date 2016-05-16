@@ -33,7 +33,7 @@ minetest.register_node("vanilla_decor:path_stone", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_stone_defaults(),
 	node_box = {
@@ -71,7 +71,7 @@ minetest.register_node("vanilla_decor:path_stone_brick", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_stone_defaults(),
 	node_box = {
@@ -109,7 +109,7 @@ minetest.register_node("vanilla_decor:path_cobble", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_stone_defaults(),
 	node_box = {
@@ -148,7 +148,7 @@ minetest.register_node("vanilla_decor:path_mossycobble", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_stone_defaults(),
 	node_box = {
@@ -186,7 +186,7 @@ minetest.register_node("vanilla_decor:path_gravel", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_stone_defaults(),
 	node_box = {
@@ -224,7 +224,7 @@ minetest.register_node("vanilla_decor:path_desert_stone", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_stone_defaults(),
 	node_box = {
@@ -263,7 +263,7 @@ minetest.register_node("vanilla_decor:path_desert_stone_brick", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_stone_defaults(),
 	node_box = {
@@ -301,7 +301,7 @@ minetest.register_node("vanilla_decor:path_desert_cobble", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_stone_defaults(),
 	node_box = {
@@ -339,7 +339,7 @@ minetest.register_node("vanilla_decor:path_sandstone", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_stone_defaults(),
 	node_box = {
@@ -377,7 +377,7 @@ minetest.register_node("vanilla_decor:path_sandstone_brick", {
 	buildable_to = false,
 	walkable = true,
 	climbable = false,
-	groups = {cracky=3},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	stack_max = 250,
 	sounds = default.node_sound_stone_defaults(),
 	node_box = {

@@ -36,7 +36,7 @@ minetest.register_node("vanilla_decor:flower_dandelion_white_pot", {
 	climbable = false,	
 	stack_max = 250,
 	selection_box = {type = "regular"},
-	groups = {cracky=2, liquid=3, flammable=3},
+	groups = {cracky = 3, liquid = 3, flammable = 3},
 	sounds = default.node_sound_leaves_defaults(),
 	
 })
@@ -55,7 +55,7 @@ minetest.register_node("vanilla_decor:flower_dandelion_yellow_pot", {
 	climbable = false,	
 	stack_max = 250,
 	selection_box = {type = "regular"},
-	groups = {cracky=2, liquid=3, flammable=3},
+	groups = {cracky = 3, liquid = 3, flammable = 3},
 	sounds = default.node_sound_leaves_defaults(),
 	
 })
@@ -74,7 +74,7 @@ minetest.register_node("vanilla_decor:flower_rose_pot", {
 	climbable = false,	
 	stack_max = 250,
 	selection_box = {type = "regular"},
-	groups = {cracky=2, liquid=3, flammable=3},
+	groups = {cracky = 3, liquid = 3, flammable = 3},
 	sounds = default.node_sound_leaves_defaults(),
 	
 })
@@ -93,7 +93,7 @@ minetest.register_node("vanilla_decor:flower_tulip_pot", {
 	climbable = false,	
 	stack_max = 250,
 	selection_box = {type = "regular"},
-	groups = {cracky=2, liquid=3, flammable=3},
+	groups = {cracky = 3, liquid = 3, flammable = 3},
 	sounds = default.node_sound_leaves_defaults(),
 	
 })
@@ -112,7 +112,7 @@ minetest.register_node("vanilla_decor:flower_viola_pot", {
 	climbable = false,	
 	stack_max = 250,
 	selection_box = {type = "regular"},
-	groups = {cracky=2, liquid=3, flammable=3},
+	groups = {cracky = 3, liquid = 3, flammable = 3},
 	sounds = default.node_sound_leaves_defaults(),
 	
 })
@@ -131,9 +131,8 @@ minetest.register_node("vanilla_decor:flower_geranium_pot", {
 	climbable = false,	
 	stack_max = 250,
 	selection_box = {type = "regular"},
-	groups = {cracky=2, liquid=3, flammable=3},
-	sounds = default.node_sound_leaves_defaults(),
-	
+	groups = {cracky = 3, oddly_breakable_by_hand = 3, liquid = 3, flammable = 3},
+	sounds = default.node_sound_leaves_defaults(),	
 })
 
 

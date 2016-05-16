@@ -22,458 +22,185 @@
 -- TAPPETI --
 -------------
 
-minetest.register_node("vanilla_decor:carpet_white", {
-	description = "Carpet White",
-	drawtype = "nodebox",
-	tiles = {"wool_white.png"},
-	inventory_image = "wool_white.png",
-	wield_image = "wool_white.png",
-	is_ground_content = true,
+minetest.register_node("vanilla_decor:red", {
+	description = "Red Carpet",
+	drawtype = "raillike",
+	tiles = {"carpet_red_out.png"},
+	inventory_image = "carpet_red_out.png",
+	wield_image = "carpet_red_out.png",
 	paramtype = "light",
-	paramtype2 = "facedir",
-	sunlight_propagates = true,
-	buildable_to = false,
-	walkable = true,
-	climbable = false,
-	stack_max = 250,
-	groups = {snappy = 2,
-	choppy = 2,
-	oddly_breakable_by_hand = 3,
-	flammable = 3,	
-	-- not_in_creative_inventory = 1
-	attached_node = 1},
-	sounds = default.node_sound_defaults(),	
-		node_box = {
+	is_ground_content = true,
+	walkable = false,
+	buildable_to = true,
+	selection_box = {
 		type = "fixed",
-		fixed = {
-			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}, -- Carpet node
-			
-		selection_box = {
-			type = "fixed",
-			fixed = {-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5},
-			}			
-		}		
-	}		
+                
+                fixed = {-1/2, -1/2, -1/2, 1/2, -1/2+1/16, 1/2},
+	},
+	groups = {dig_immediate=2},
+})
+
+minetest.register_node("vanilla_decor:orange", {
+	description = "Orange Carpet",
+	drawtype = "raillike",
+	tiles = {"carpet_orange_out.png", "carpet_orange_cor.png", "carpet_orange_one.png", "carpet_orange_cen.png"},
+	inventory_image = "carpet_orange_out.png",
+	wield_image = "carpet_orange_out.png",
+	paramtype = "light",
+	is_ground_content = true,
+	walkable = false,
+	buildable_to = true,
+	selection_box = {
+		type = "fixed",
+                
+                fixed = {-1/2, -1/2, -1/2, 1/2, -1/2+1/16, 1/2},
+	},
+	groups = {dig_immediate=2},
+})
+
+minetest.register_node("vanilla_decor:yellow", {
+	description = "Yellow Carpet",
+	drawtype = "raillike",
+	tiles = {"carpet_yellow_out.png"},
+	inventory_image = "carpet_yellow_out.png",
+	wield_image = "carpet_yellow_out.png",
+	paramtype = "light",
+	is_ground_content = true,
+	walkable = false,
+	buildable_to = true,
+	selection_box = {
+		type = "fixed",
+                
+                fixed = {-1/2, -1/2, -1/2, 1/2, -1/2+1/16, 1/2},
+	},
+	groups = {dig_immediate=2},
+})
+
+minetest.register_node("vanilla_decor:green", {
+	description = "Green Carpet",
+	drawtype = "raillike",
+	tiles = {"carpet_green_out.png"},
+	inventory_image = "carpet_green_out.png",
+	wield_image = "carpet_green_out.png",
+	paramtype = "light",
+	is_ground_content = true,
+	walkable = false,
+	buildable_to = true,
+	selection_box = {
+		type = "fixed",
+                
+                fixed = {-1/2, -1/2, -1/2, 1/2, -1/2+1/16, 1/2},
+	},
+	groups = {dig_immediate=2},
+})
+
+minetest.register_node("vanilla_decor:cyan", {
+	description = "Cyan Carpet",
+	drawtype = "raillike",
+	tiles = {"carpet_cyan_out.png"},
+	inventory_image = "carpet_cyan_out.png",
+	wield_image = "carpet_cyan_out.png",
+	paramtype = "light",
+	is_ground_content = true,
+	walkable = false,
+	buildable_to = true,
+	selection_box = {
+		type = "fixed",
+                
+                fixed = {-1/2, -1/2, -1/2, 1/2, -1/2+1/16, 1/2},
+	},
+	groups = {dig_immediate=2},
+})
+
+minetest.register_node("vanilla_decor:blue", {
+	description = "Blue Carpet",
+	drawtype = "raillike",
+	tiles = {"carpet_blue_out.png"},
+	inventory_image = "carpet_blue_out.png",
+	wield_image = "carpet_blue_out.png",
+	paramtype = "light",
+	is_ground_content = true,
+	walkable = false,
+	buildable_to = true,
+	selection_box = {
+		type = "fixed",
+                
+                fixed = {-1/2, -1/2, -1/2, 1/2, -1/2+1/16, 1/2},
+	},
+	groups = {dig_immediate=2},
+})
+
+minetest.register_node("vanilla_decor:pink", {
+	description = "Pink Carpet",
+	drawtype = "raillike",
+	tiles = {"carpet_pink_out.png"},
+	inventory_image = "carpet_pink_out.png",
+	wield_image = "carpet_pink_out.png",
+	paramtype = "light",
+	is_ground_content = true,
+	walkable = false,
+	buildable_to = true,
+	selection_box = {
+		type = "fixed",
+                
+                fixed = {-1/2, -1/2, -1/2, 1/2, -1/2+1/16, 1/2},
+	},
+	groups = {dig_immediate=2},
 })
 
 
-minetest.register_node("vanilla_decor:carpet_black", {
-	description = "Carpet Black",
-	drawtype = "nodebox",
-	tiles = {"wool_black.png"},
-	inventory_image = "wool_black.png",
-	wield_image = "wool_black.png",
-	is_ground_content = true,
+minetest.register_node("vanilla_decor:black", {
+	description = "Black Carpet",
+	drawtype = "raillike",
+	tiles = {"carpet_black_out.png"},
+	inventory_image = "carpet_black_out.png",
+	wield_image = "carpet_black_out.png",
 	paramtype = "light",
-	paramtype2 = "facedir",
-	sunlight_propagates = true,
-	buildable_to = false,
-	walkable = true,
-	climbable = false,
-	stack_max = 250,
-	groups = {snappy = 2,
-	choppy = 2,
-	oddly_breakable_by_hand = 3,
-	flammable = 3,	
-	-- not_in_creative_inventory = 1
-	attached_node = 1},
-	sounds = default.node_sound_defaults(),	
-		node_box = {
+	is_ground_content = true,
+	walkable = false,
+	buildable_to = true,
+	selection_box = {
 		type = "fixed",
-		fixed = {
-			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}, -- Carpet node
-		}
-	}		
+                
+                fixed = {-1/2, -1/2, -1/2, 1/2, -1/2+1/16, 1/2},
+	},
+	groups = {dig_immediate=2},
 })
 
-
-minetest.register_node("vanilla_decor:carpet_blue", {
-	description = "Carpet Blue",
-	drawtype = "nodebox",
-	tiles = {"wool_blue.png"},
-	inventory_image = "wool_blue.png",
-	wield_image = "wool_blue.png",
-	is_ground_content = true,
+minetest.register_node("vanilla_decor:magenta", {
+	description = "Magenta Carpet",
+	drawtype = "raillike",
+	tiles = {"carpet_magenta_out.png"},
+	inventory_image = "carpet_magenta_out.png",
+	wield_image = "carpet_magenta_out.png",
 	paramtype = "light",
-	paramtype2 = "facedir",
-	sunlight_propagates = true,
-	buildable_to = false,
-	walkable = true,
-	climbable = false,
-	stack_max = 250,
-	groups = {snappy = 2,
-	choppy = 2,
-	oddly_breakable_by_hand = 3,
-	flammable = 3,	
-	-- not_in_creative_inventory = 1
-	attached_node = 1},
-	sounds = default.node_sound_defaults(),	
-		node_box = {
+	is_ground_content = true,
+	walkable = false,
+	buildable_to = true,
+	selection_box = {
 		type = "fixed",
-		fixed = {
-			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}, -- Carpet node
-		}
-	}		
+                
+                fixed = {-1/2, -1/2, -1/2, 1/2, -1/2+1/16, 1/2},
+	},
+	groups = {dig_immediate=2},
 })
 
-
-minetest.register_node("vanilla_decor:carpet_brown", {
-	description = "Carpet Brown",
-	drawtype = "nodebox",
-	tiles = {"wool_brown.png"},
-	inventory_image = "wool_brown.png",
-	wield_image = "wool_brown.png",
-	is_ground_content = true,
+minetest.register_node("vanilla_decor:white", {
+	description = "White Carpet",
+	drawtype = "raillike",
+	tiles = {"carpet_white_out.png"},
+	inventory_image = "carpet_white_out.png",
+	wield_image = "carpet_white_out.png",
 	paramtype = "light",
-	paramtype2 = "facedir",
-	sunlight_propagates = true,
-	buildable_to = false,
-	walkable = true,
-	climbable = false,
-	stack_max = 250,
-	groups = {snappy = 2,
-	choppy = 2,
-	oddly_breakable_by_hand = 3,
-	flammable = 3,	
-	-- not_in_creative_inventory = 1
-	attached_node = 1},
-	sounds = default.node_sound_defaults(),	
-		node_box = {
-		type = "fixed",
-		fixed = {
-			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}, -- Carpet node
-		}
-	}		
-})
-
-
-minetest.register_node("vanilla_decor:carpet_cyan", {
-	description = "Carpet Cyan",
-	drawtype = "nodebox",
-	tiles = {"wool_cyan.png"},
-	inventory_image = "wool_cyan.png",
-	wield_image = "wool_cyan.png",
 	is_ground_content = true,
-	paramtype = "light",
-	paramtype2 = "facedir",
-	sunlight_propagates = true,
-	buildable_to = false,
-	walkable = true,
-	climbable = false,
-	stack_max = 250,
-	groups = {snappy = 2,
-	choppy = 2,
-	oddly_breakable_by_hand = 3,
-	flammable = 3,	
-	-- not_in_creative_inventory = 1
-	attached_node = 1},
-	sounds = default.node_sound_defaults(),	
-		node_box = {
+	walkable = false,
+	buildable_to = true,
+	selection_box = {
 		type = "fixed",
-		fixed = {
-			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}, -- Carpet node
-		}
-	}		
-})
-
-
-minetest.register_node("vanilla_decor:carpet_dark_green", {
-	description = "Carpet Dark Green",
-	drawtype = "nodebox",
-	tiles = {"wool_dark_green.png"},
-	inventory_image = "wool_dark_green.png",
-	wield_image = "wool_dark_green.png",
-	is_ground_content = true,
-	paramtype = "light",
-	paramtype2 = "facedir",
-	sunlight_propagates = true,
-	buildable_to = false,
-	walkable = true,
-	climbable = false,
-	stack_max = 250,
-	groups = {snappy = 2,
-	choppy = 2,
-	oddly_breakable_by_hand = 3,
-	flammable = 3,	
-	-- not_in_creative_inventory = 1
-	attached_node = 1},
-	sounds = default.node_sound_defaults(),	
-		node_box = {
-		type = "fixed",
-		fixed = {
-			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}, -- Carpet node
-		}
-	}		
-})
-
-
-minetest.register_node("vanilla_decor:carpet_dark_grey", {
-	description = "Carpet Dark Grey",
-	drawtype = "nodebox",
-	tiles = {"wool_dark_grey.png"},
-	inventory_image = "wool_dark_grey.png",
-	wield_image = "wool_dark_grey.png",
-	is_ground_content = true,
-	paramtype = "light",
-	paramtype2 = "facedir",
-	sunlight_propagates = true,
-	buildable_to = false,
-	walkable = true,
-	climbable = false,
-	stack_max = 250,
-	groups = {snappy = 2,
-	choppy = 2,
-	oddly_breakable_by_hand = 3,
-	flammable = 3,	
-	-- not_in_creative_inventory = 1
-	attached_node = 1},
-	sounds = default.node_sound_defaults(),	
-		node_box = {
-		type = "fixed",
-		fixed = {
-			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}, -- Carpet node
-		}
-	}		
-})
-
-
-minetest.register_node("vanilla_decor:carpet_green", {
-	description = "Carpet Green",
-	drawtype = "nodebox",
-	tiles = {"wool_green.png"},
-	inventory_image = "wool_green.png",
-	wield_image = "wool_green.png",
-	is_ground_content = true,
-	paramtype = "light",
-	paramtype2 = "facedir",
-	sunlight_propagates = true,
-	buildable_to = false,
-	walkable = true,
-	climbable = false,
-	stack_max = 250,
-	groups = {snappy = 2,
-	choppy = 2,
-	oddly_breakable_by_hand = 3,
-	flammable = 3,	
-	-- not_in_creative_inventory = 1
-	attached_node = 1},
-	sounds = default.node_sound_defaults(),	
-		node_box = {
-		type = "fixed",
-		fixed = {
-			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}, -- Carpet node
-		}
-	}		
-})
-
-
-minetest.register_node("vanilla_decor:carpet_grey", {
-	description = "Carpet Grey",
-	drawtype = "nodebox",
-	tiles = {"wool_grey.png"},
-	inventory_image = "wool_grey.png",
-	wield_image = "wool_grey.png",
-	is_ground_content = true,
-	paramtype = "light",
-	paramtype2 = "facedir",
-	sunlight_propagates = true,
-	buildable_to = false,
-	walkable = true,
-	climbable = false,
-	stack_max = 250,
-	groups = {snappy = 2,
-	choppy = 2,
-	oddly_breakable_by_hand = 3,
-	flammable = 3,	
-	-- not_in_creative_inventory = 1
-	attached_node = 1},
-	sounds = default.node_sound_defaults(),	
-		node_box = {
-		type = "fixed",
-		fixed = {
-			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}, -- Carpet node
-		}
-	}		
-})
-
-
-minetest.register_node("vanilla_decor:carpet_magenta", {
-	description = "Carpet Magenta",
-	drawtype = "nodebox",
-	tiles = {"wool_magenta.png"},
-	inventory_image = "wool_magenta.png",
-	wield_image = "wool_magenta.png",
-	is_ground_content = true,
-	paramtype = "light",
-	paramtype2 = "facedir",
-	sunlight_propagates = true,
-	buildable_to = false,
-	walkable = true,
-	climbable = false,
-	stack_max = 250,
-	groups = {snappy = 2,
-	choppy = 2,
-	oddly_breakable_by_hand = 3,
-	flammable = 3,	
-	-- not_in_creative_inventory = 1
-	attached_node = 1},
-	sounds = default.node_sound_defaults(),	
-		node_box = {
-		type = "fixed",
-		fixed = {
-			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}, -- Carpet node
-		}
-	}		
-})
-
-
-minetest.register_node("vanilla_decor:carpet_orange", {
-	description = "Carpet Orange",
-	drawtype = "nodebox",
-	tiles = {"wool_orange.png"},
-	inventory_image = "wool_orange.png",
-	wield_image = "wool_orange.png",
-	is_ground_content = true,
-	paramtype = "light",
-	paramtype2 = "facedir",
-	sunlight_propagates = true,
-	buildable_to = false,
-	walkable = true,
-	climbable = false,
-	stack_max = 250,
-	groups = {snappy = 2,
-	choppy = 2,
-	oddly_breakable_by_hand = 3,
-	flammable = 3,	
-	-- not_in_creative_inventory = 1
-	attached_node = 1},
-	sounds = default.node_sound_defaults(),	
-		node_box = {
-		type = "fixed",
-		fixed = {
-			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}, -- Carpet node
-		}
-	}		
-})
-
-
-minetest.register_node("vanilla_decor:carpet_pink", {
-	description = "Carpet Pink",
-	drawtype = "nodebox",
-	tiles = {"wool_pink.png"},
-	inventory_image = "wool_pink.png",
-	wield_image = "wool_pink.png",
-	is_ground_content = true,
-	paramtype = "light",
-	paramtype2 = "facedir",
-	sunlight_propagates = true,
-	buildable_to = false,
-	walkable = true,
-	climbable = false,
-	stack_max = 250,
-	groups = {snappy = 2,
-	choppy = 2,
-	oddly_breakable_by_hand = 3,
-	flammable = 3,	
-	-- not_in_creative_inventory = 1
-	attached_node = 1},
-	sounds = default.node_sound_defaults(),	
-		node_box = {
-		type = "fixed",
-		fixed = {
-			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}, -- Carpet node
-		}
-	}		
-})
-
-
-minetest.register_node("vanilla_decor:carpet_red", {
-	description = "Carpet Red",
-	drawtype = "nodebox",
-	tiles = {"wool_red.png"},
-	inventory_image = "wool_red.png",
-	wield_image = "wool_red.png",
-	is_ground_content = true,
-	paramtype = "light",
-	paramtype2 = "facedir",
-	sunlight_propagates = true,
-	buildable_to = false,
-	walkable = true,
-	climbable = false,
-	stack_max = 250,
-	groups = {snappy = 2,
-	choppy = 2,
-	oddly_breakable_by_hand = 3,
-	flammable = 3,	
-	-- not_in_creative_inventory = 1
-	attached_node = 1},
-	sounds = default.node_sound_defaults(),	
-		node_box = {
-		type = "fixed",
-		fixed = {
-			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}, -- Carpet node
-		}
-	}		
-})
-
-
-minetest.register_node("vanilla_decor:carpet_violet", {
-	description = "Carpet Violet",
-	drawtype = "nodebox",
-	tiles = {"wool_violet.png"},
-	inventory_image = "wool_violet.png",
-	wield_image = "wool_violet.png",
-	is_ground_content = true,
-	paramtype = "light",
-	paramtype2 = "facedir",
-	sunlight_propagates = true,
-	buildable_to = false,
-	walkable = true,
-	climbable = false,
-	stack_max = 250,
-	groups = {snappy = 2,
-	choppy = 2,
-	oddly_breakable_by_hand = 3,
-	flammable = 3,	
-	-- not_in_creative_inventory = 1
-	attached_node = 1},
-	sounds = default.node_sound_defaults(),	
-		node_box = {
-		type = "fixed",
-		fixed = {
-			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}, -- Carpet node
-		}
-	}		
-})
-
-
-minetest.register_node("vanilla_decor:carpet_yellow", {
-	description = "Carpet Yellow",
-	drawtype = "nodebox",
-	tiles = {"wool_yellow.png"},
-	inventory_image = "wool_yellow.png",
-	wield_image = "wool_yellow.png",
-	is_ground_content = true,
-	paramtype = "light",
-	paramtype2 = "facedir",
-	sunlight_propagates = true,
-	buildable_to = false,
-	walkable = true,
-	climbable = false,
-	stack_max = 250,
-	groups = {snappy = 2,
-	choppy = 2,
-	oddly_breakable_by_hand = 3,
-	flammable = 3,	
-	-- not_in_creative_inventory = 1
-	attached_node = 1},
-	sounds = default.node_sound_defaults(),	
-		node_box = {
-		type = "fixed",
-		fixed = {
-			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}, -- Carpet node
-		}
-	}		
+                
+                fixed = {-1/2, -1/2, -1/2, 1/2, -1/2+1/16, 1/2},
+	},
+	groups = {dig_immediate=2},
 })
 
 
