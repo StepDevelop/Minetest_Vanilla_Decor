@@ -24,7 +24,7 @@
 
 
 minetest.register_node("vanilla_decor:path_stone", {
-	description = "Path_Stone",
+	description = "Path Stone",
 	drawtype = "nodebox",
 	tiles = {"default_stone.png"},
 	paramtype = "light",
@@ -62,7 +62,7 @@ minetest.register_node("vanilla_decor:path_stone", {
 
 
 minetest.register_node("vanilla_decor:path_stone_brick", {
-	description = "Path_Stone_Brick",
+	description = "Path Stone Brick",
 	drawtype = "nodebox",
 	tiles = {"default_stone_brick.png"},
 	paramtype = "light",
@@ -100,7 +100,7 @@ minetest.register_node("vanilla_decor:path_stone_brick", {
 
 
 minetest.register_node("vanilla_decor:path_cobble", {
-	description = "Path_Cobblestone",
+	description = "Path Cobblestone",
 	drawtype = "nodebox",
 	tiles = {"default_cobble.png"},
 	paramtype = "light",
@@ -139,7 +139,7 @@ minetest.register_node("vanilla_decor:path_cobble", {
 
 
 minetest.register_node("vanilla_decor:path_mossycobble", {
-	description = "Path_Mossy_Cobblestone",
+	description = "Path Mossy Cobblestone",
 	drawtype = "nodebox",
 	tiles = {"default_mossycobble.png"},
 	paramtype = "light",
@@ -177,7 +177,7 @@ minetest.register_node("vanilla_decor:path_mossycobble", {
 
 
 minetest.register_node("vanilla_decor:path_gravel", {
-	description = "Path_Gravel",
+	description = "Path Gravel",
 	drawtype = "nodebox",
 	tiles = {"default_gravel.png"},
 	paramtype = "light",
@@ -215,7 +215,7 @@ minetest.register_node("vanilla_decor:path_gravel", {
 
 
 minetest.register_node("vanilla_decor:path_desert_stone", {
-	description = "Path_Desert_Stone",
+	description = "Path Desert Stone",
 	drawtype = "nodebox",
 	tiles = {"default_desert_stone.png"},
 	paramtype = "light",
@@ -254,7 +254,7 @@ minetest.register_node("vanilla_decor:path_desert_stone", {
 
 
 minetest.register_node("vanilla_decor:path_desert_stone_brick", {
-	description = "Path_Desert_Stone_Brick",
+	description = "Path Desert Stone Brick",
 	drawtype = "nodebox",
 	tiles = {"default_desert_stone_brick.png"},
 	paramtype = "light",
@@ -292,7 +292,7 @@ minetest.register_node("vanilla_decor:path_desert_stone_brick", {
 
 
 minetest.register_node("vanilla_decor:path_desert_cobble", {
-	description = "Path_Desert_Cobble",
+	description = "Path Desert Cobble",
 	drawtype = "nodebox",
 	tiles = {"default_desert_cobble.png"},
 	paramtype = "light",
@@ -330,7 +330,7 @@ minetest.register_node("vanilla_decor:path_desert_cobble", {
 
 
 minetest.register_node("vanilla_decor:path_sandstone", {
-	description = "Path_Sandstone",
+	description = "Path Sandstone",
 	drawtype = "nodebox",
 	tiles = {"default_sandstone.png"},
 	paramtype = "light",
@@ -368,7 +368,7 @@ minetest.register_node("vanilla_decor:path_sandstone", {
 
 
 minetest.register_node("vanilla_decor:path_sandstone_brick", {
-	description = "Path_Sandstone_Brick",
+	description = "Path Sandstone Brick",
 	drawtype = "nodebox",
 	tiles = {"default_sandstone_brick.png"},
 	paramtype = "light",
