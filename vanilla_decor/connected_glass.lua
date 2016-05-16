@@ -24,7 +24,7 @@
 
 
 minetest.register_node("vanilla_decor:connected_glass", {
-	description = "Connected_Glass",
+	description = "Connected Glass",
 	drawtype = "glasslike_framed",
 
 	tiles = {"default_glass.png", "default_glass_detail.png"},
@@ -37,7 +37,6 @@ minetest.register_node("vanilla_decor:connected_glass", {
 	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	sounds = default.node_sound_glass_defaults()
 })
-
 
 
 

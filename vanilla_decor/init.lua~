@@ -28,6 +28,8 @@ dofile(minetest.get_modpath('vanilla_decor')..'/flowers_pot.lua')
 dofile(minetest.get_modpath('vanilla_decor')..'/paths.lua')
 dofile(minetest.get_modpath('vanilla_decor')..'/sofas.lua')
 dofile(minetest.get_modpath('vanilla_decor')..'/tables.lua')
+dofile(minetest.get_modpath('vanilla_decor')..'/pictures.lua')
+dofile(minetest.get_modpath('vanilla_decor')..'/glow_blocks.lua')
 
 
 -- Crafting
@@ -40,7 +42,7 @@ dofile(minetest.get_modpath('vanilla_decor')..'/connected_glass_craft.lua')
 dofile(minetest.get_modpath('vanilla_decor')..'/flowers_pot_craft.lua')
 dofile(minetest.get_modpath('vanilla_decor')..'/tables_craft.lua')
 --dofile(minetest.get_modpath('vanilla_decor')..'/paths_craft.lua')
---dofile(minetest.get_modpath('vanilla_decor')..'/craft.lua')
+--dofile(minetest.get_modpath('vanilla_decor')..'/pictures_craft.lua')
 
 
 

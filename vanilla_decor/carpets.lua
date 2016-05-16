@@ -32,22 +32,22 @@ minetest.register_node("vanilla_decor:carpet_white", {
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
-	buildable_to = true,
+	buildable_to = false,
 	walkable = true,
 	climbable = false,
 	stack_max = 250,
 	groups = {snappy = 2,
 	choppy = 2,
 	oddly_breakable_by_hand = 3,
-	flammable = 3,	
+	flammable = 3,
 	-- not_in_creative_inventory = 1
 	attached_node = 1},
-	sounds = default.node_sound_defaults(),	
+	sounds = default.node_sound_defaults(),
 		node_box = {
 		type = "fixed",
 		fixed = {
 			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}, -- Carpet node
-		}
+		}		
 	}		
 })
 

@@ -18,11 +18,31 @@
 --]]
 
 
-minetest.register_craft({
-	output = '"tutorial:decowood" 2',
-	recipe = {
-		{'default:wood', 'default:wood', ''},
-		{'default:wood', 'default:wood', ''},
-		{'', '', ''},
+minetest.register_node("vanilla_decor:picture_wooden_planks", {
+	description = "Picture 1",
+	drawtype = "nodebox",
+	tiles = {"stepdevelop_avatar.png"},
+	paramtype = "light",
+	paramtype2 = "facedir",
+	sunlight_propagates = true,
+	buildable_to = false,
+	walkable = true,
+	climbable = false,
+	groups = {cracky=3},
+	stack_max = 250,
+	sounds = default.node_sound_stone_defaults(),
+		node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.5, -0.5, 0.4375, 0.5, 0.5, 0.5}, -- NodeBox1
+		}
 	}
 })
+
+
+-- Quadro doppio
+
+-- {-0.5, -0.5, 0.4375, 1.5, 0.5, 0.5}, -- NodeBox1
+
+
+

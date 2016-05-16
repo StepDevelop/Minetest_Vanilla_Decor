@@ -29,6 +29,7 @@ dofile(minetest.get_modpath('vanilla_decor')..'/paths.lua')
 dofile(minetest.get_modpath('vanilla_decor')..'/sofas.lua')
 dofile(minetest.get_modpath('vanilla_decor')..'/tables.lua')
 dofile(minetest.get_modpath('vanilla_decor')..'/pictures.lua')
+dofile(minetest.get_modpath('vanilla_decor')..'/glow_blocks.lua')
 
 
 -- Crafting

@@ -32,7 +32,7 @@ minetest.register_node("vanilla_decor:carpet_white", {
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
-	buildable_to = true,
+	buildable_to = false,
 	walkable = true,
 	climbable = false,
 	stack_max = 250,
@@ -47,7 +47,12 @@ minetest.register_node("vanilla_decor:carpet_white", {
 		type = "fixed",
 		fixed = {
 			{-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}, -- Carpet node
-		}
+			
+		selection_box = {
+			type = "fixed",
+			fixed = {-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5},
+			}			
+		}		
 	}		
 })
 
