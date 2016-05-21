@@ -102,8 +102,9 @@ minetest.register_node( "vanilla_decor:small_lamp", {
 		type = "fixed",
 		fixed = {
 			{-0.125, -0.5, -0.125, 0.125, -0.25, 0.125}, -- Luce
-		}
-	}
+		},
+	},
+	on_place = minetest.rotate_node
 })
 
 

@@ -22,185 +22,55 @@
 -- TAPPETI --
 -------------
 
-minetest.register_node("vanilla_decor:red", {
-	description = "Red Carpet",
-	drawtype = "raillike",
-	tiles = {"carpet_red_out.png"},
-	inventory_image = "carpet_red_out.png",
-	wield_image = "carpet_red_out.png",
-	paramtype = "light",
-	is_ground_content = true,
-	walkable = false,
-	buildable_to = true,
-	selection_box = {
-		type = "fixed",
-                
-                fixed = {-1/2, -1/2, -1/2, 1/2, -1/2+1/16, 1/2},
-	},
-	groups = {dig_immediate=2},
-})
+local dyes = {
+	{"white",      "White",      nil},
+	{"grey",       "Grey",       "basecolor_grey"},
+	{"black",      "Black",      "basecolor_black"},
+	{"red",        "Red",        "basecolor_red"},
+	{"yellow",     "Yellow",     "basecolor_yellow"},
+	{"green",      "Green",      "basecolor_green"},
+	{"cyan",       "Cyan",       "basecolor_cyan"},
+	{"blue",       "Blue",       "basecolor_blue"},
+	{"magenta",    "Magenta",    "basecolor_magenta"},
+	{"orange",     "Orange",     "excolor_orange"},
+	{"violet",     "Violet",     "excolor_violet"},
+	{"brown",      "Brown",      "unicolor_dark_orange"},
+	{"pink",       "Pink",       "unicolor_light_red"},
+	{"dark_grey",  "Dark Grey",  "unicolor_darkgrey"},
+	{"dark_green", "Dark Green", "unicolor_dark_green"},
+}
 
-minetest.register_node("vanilla_decor:orange", {
-	description = "Orange Carpet",
-	drawtype = "raillike",
-	tiles = {"carpet_orange_out.png", "carpet_orange_cor.png", "carpet_orange_one.png", "carpet_orange_cen.png"},
-	inventory_image = "carpet_orange_out.png",
-	wield_image = "carpet_orange_out.png",
-	paramtype = "light",
-	is_ground_content = true,
-	walkable = false,
-	buildable_to = true,
-	selection_box = {
-		type = "fixed",
-                
-                fixed = {-1/2, -1/2, -1/2, 1/2, -1/2+1/16, 1/2},
-	},
-	groups = {dig_immediate=2},
-})
-
-minetest.register_node("vanilla_decor:yellow", {
-	description = "Yellow Carpet",
-	drawtype = "raillike",
-	tiles = {"carpet_yellow_out.png"},
-	inventory_image = "carpet_yellow_out.png",
-	wield_image = "carpet_yellow_out.png",
-	paramtype = "light",
-	is_ground_content = true,
-	walkable = false,
-	buildable_to = true,
-	selection_box = {
-		type = "fixed",
-                
-                fixed = {-1/2, -1/2, -1/2, 1/2, -1/2+1/16, 1/2},
-	},
-	groups = {dig_immediate=2},
-})
-
-minetest.register_node("vanilla_decor:green", {
-	description = "Green Carpet",
-	drawtype = "raillike",
-	tiles = {"carpet_green_out.png"},
-	inventory_image = "carpet_green_out.png",
-	wield_image = "carpet_green_out.png",
-	paramtype = "light",
-	is_ground_content = true,
-	walkable = false,
-	buildable_to = true,
-	selection_box = {
-		type = "fixed",
-                
-                fixed = {-1/2, -1/2, -1/2, 1/2, -1/2+1/16, 1/2},
-	},
-	groups = {dig_immediate=2},
-})
-
-minetest.register_node("vanilla_decor:cyan", {
-	description = "Cyan Carpet",
-	drawtype = "raillike",
-	tiles = {"carpet_cyan_out.png"},
-	inventory_image = "carpet_cyan_out.png",
-	wield_image = "carpet_cyan_out.png",
-	paramtype = "light",
-	is_ground_content = true,
-	walkable = false,
-	buildable_to = true,
-	selection_box = {
-		type = "fixed",
-                
-                fixed = {-1/2, -1/2, -1/2, 1/2, -1/2+1/16, 1/2},
-	},
-	groups = {dig_immediate=2},
-})
-
-minetest.register_node("vanilla_decor:blue", {
-	description = "Blue Carpet",
-	drawtype = "raillike",
-	tiles = {"carpet_blue_out.png"},
-	inventory_image = "carpet_blue_out.png",
-	wield_image = "carpet_blue_out.png",
-	paramtype = "light",
-	is_ground_content = true,
-	walkable = false,
-	buildable_to = true,
-	selection_box = {
-		type = "fixed",
-                
-                fixed = {-1/2, -1/2, -1/2, 1/2, -1/2+1/16, 1/2},
-	},
-	groups = {dig_immediate=2},
-})
-
-minetest.register_node("vanilla_decor:pink", {
-	description = "Pink Carpet",
-	drawtype = "raillike",
-	tiles = {"carpet_pink_out.png"},
-	inventory_image = "carpet_pink_out.png",
-	wield_image = "carpet_pink_out.png",
-	paramtype = "light",
-	is_ground_content = true,
-	walkable = false,
-	buildable_to = true,
-	selection_box = {
-		type = "fixed",
-                
-                fixed = {-1/2, -1/2, -1/2, 1/2, -1/2+1/16, 1/2},
-	},
-	groups = {dig_immediate=2},
-})
-
-
-minetest.register_node("vanilla_decor:black", {
-	description = "Black Carpet",
-	drawtype = "raillike",
-	tiles = {"carpet_black_out.png"},
-	inventory_image = "carpet_black_out.png",
-	wield_image = "carpet_black_out.png",
-	paramtype = "light",
-	is_ground_content = true,
-	walkable = false,
-	buildable_to = true,
-	selection_box = {
-		type = "fixed",
-                
-                fixed = {-1/2, -1/2, -1/2, 1/2, -1/2+1/16, 1/2},
-	},
-	groups = {dig_immediate=2},
-})
-
-minetest.register_node("vanilla_decor:magenta", {
-	description = "Magenta Carpet",
-	drawtype = "raillike",
-	tiles = {"carpet_magenta_out.png"},
-	inventory_image = "carpet_magenta_out.png",
-	wield_image = "carpet_magenta_out.png",
-	paramtype = "light",
-	is_ground_content = true,
-	walkable = false,
-	buildable_to = true,
-	selection_box = {
-		type = "fixed",
-                
-                fixed = {-1/2, -1/2, -1/2, 1/2, -1/2+1/16, 1/2},
-	},
-	groups = {dig_immediate=2},
-})
-
-minetest.register_node("vanilla_decor:white", {
-	description = "White Carpet",
-	drawtype = "raillike",
-	tiles = {"carpet_white_out.png"},
-	inventory_image = "carpet_white_out.png",
-	wield_image = "carpet_white_out.png",
-	paramtype = "light",
-	is_ground_content = true,
-	walkable = false,
-	buildable_to = true,
-	selection_box = {
-		type = "fixed",
-                
-                fixed = {-1/2, -1/2, -1/2, 1/2, -1/2+1/16, 1/2},
-	},
-	groups = {dig_immediate=2},
-})
+-- Register carpets
+for _, row in ipairs(dyes) do
+	local name = row[1]
+	local desc = row[2]
+	
+	-- Node Definition
+	minetest.register_node("vanilla_decor:" .. name, {
+		description = desc .. " Carpet",
+		tiles = {"wool_" .. name .. ".png"},
+		is_ground_content = true,
+		paramtype = "light",
+		drawtype = "nodebox",
+		node_box = {
+			type = "fixed",
+			fixed = {
+				{-0.5, -0.5, -0.5,  0.5, -0.57+2/16, 0.5},
+			},
+		},
+		groups = {snappy = 2, choppy = 2, oddly_breakable_by_hand = 3,
+		flammable = 3, vanilla_decor = 1, attached_node = 1},
+		sounds = default.node_sound_defaults(),
+		on_place = minetest.rotate_node
+	})
+	
+	-- Crafting from wool
+	minetest.register_craft({
+		output = "vanilla_decor:" .. name .. " 4",
+		recipe = {
+			{"wool:" .. name, "wool:" .. name},
+		},
+	})
+end
 
 

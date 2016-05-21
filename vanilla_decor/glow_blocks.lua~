@@ -18,85 +18,96 @@
 --]]
 
 
-minetest.register_node( "vanilla_decor:glowcrystal_block", {
-	description = "Glowing Crystal",
-	tile_images = { "light_white.png" },
-	is_ground_content = true,
-	paramtype = "light",
-	sunlight_propagates = true,
-	light_source = 14,
-	groups = {cracky = 3, oddly_breakable_by_hand = 3},
-	legacy_wallmounted = true,	
-	sounds = default.node_sound_stone_defaults(),
+
+local namespace = "vanilla_decor:"
+
+local function craft_glow(dye_colour)
+	minetest.register_craft({
+		output = namespace..dye_colour,
+		recipe = {
+			{'', 'dye:'..dye_colour, ''},
+			{'dye:'..dye_colour, namespace..'frame_glass', 'dye:'..dye_colour},
+			{'', 'dye:'..dye_colour, ''},
+		}
+	})
+end
+
+local function create_glow(name, desc)
+	minetest.register_node(namespace..name, {
+		description = desc.." glow",
+		drawtype = "nodebox",
+		tiles = {"glow_"..name..".png"},
+		paramtype = "light",
+		use_texture_alpha = true,
+		groups = {cracky = 3, oddly_breakable_by_hand = 3},
+		light_source = 14,
+	})
+	
+	craft_glow(name)
+end
+
+minetest.register_craft({
+	output = namespace..'frame',
+	recipe = {
+		{'default:steel_ingot', 'group:wood', 'default:steel_ingot'},
+		{'group:wood', 'default:torch', 'group:wood'},
+		{'default:steel_ingot', 'group:wood', 'default:steel_ingot'},
+	}
 })
 
 
-minetest.register_node( "vanilla_decor:lamp", {
-	description = "Lamp",
-	tile_images = { "default_wood.png" },
+minetest.register_craft({
+	type = "shapeless",
+	output = namespace..'frame_glass',
+	recipe = {'default:glass', 'vanilla_decor:frame'},
+})
+
+
+
+create_glow("black", "Black")
+create_glow("blue", "Blue")
+create_glow("brown", "Brown")
+create_glow("cyan", "Cyan")
+create_glow("dark_green", "Dark Green")
+create_glow("dark_grey", "Dark Grey")
+create_glow("green", "Green")
+create_glow("grey", "Grey")
+create_glow("magenta", "Magenta")
+create_glow("orange", "Orange")
+create_glow("pink", "Pink")
+create_glow("red", "Red")
+create_glow("violet", "Violet")
+create_glow("white", "White")
+create_glow("yellow", "Yellow")
+create_glow("frame", "Frame of the")
+create_glow("frame_glass", "Framed Glass of the")
+
+
+
+minetest.register_node( "vanilla_decor:small_lamp", {
+	description = "Small Lamp",
+	tile_images = { "light_white.png" },
 	drawtype = "nodebox",
 	is_ground_content = true,
 	paramtype = "light",
 	paramtype2 = "facedir",
+	walkable = true,
 	sunlight_propagates = true,
-	--light_source = 14,
-	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	legacy_wallmounted = true,
+	light_source = 14,
+	groups = {cracky = 2, oddly_breakable_by_hand = 2},
+	climbable = false,
 	sounds = default.node_sound_wood_defaults(),
 	node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.3125, -0.3125, 0.4375, 0.3125, 0.3125, 0.5}, -- NodeBox1
-			{-0.1875, -0.1875, 0.375, 0.1875, 0.1875, 0.4375}, -- NodeBox2
-			{-0.0625, -0.0625, 0.0625, 0.0625, 0.0625, 0.4375}, -- NodeBox3
-			{-0.0625, -0.0625, -0.0625, 0.0625, 0.375, 0.0625}, -- NodeBox4
-			{-0.1875, 0.4375, -0.1875, 0.1875, 0.5, 0.1875}, -- NodeBox5
-			{-0.125, 0.375, -0.125, 0.125, 0.4375, 0.125}, -- NodeBox6	
-		}
-	}		
+			{-0.125, -0.5, -0.125, 0.125, -0.25, 0.125}, -- Luce
+		},
+	},
+	on_place = minetest.rotate_node
 })
 
 
-minetest.register_node( "vanilla_decor:glow_tiny", {
-	description = "Glowing Crystal tiny",
-	tile_images = { "light_green.png" },
-	drawtype = "nodebox",
-	is_ground_content = true,
-	paramtype = "light",
-	paramtype2 = "facedir",
-	sunlight_propagates = true,
-	light_source = 14,
-	groups = {cracky = 3, oddly_breakable_by_hand = 3},
-	legacy_wallmounted = true,
-	sounds = default.node_sound_stone_defaults(),
-	node_box = {
-		type = "fixed",
-		fixed = {
-			{-0.25, -0.5, 0, 0.25, 1.49012e-08, 0.5}, -- Light
-		}
-	}				
-})
-
-
-minetest.register_node( "vanilla_decor:glow_tiny_center", {
-	description = "Glowing Crystal tiny (Center)",
-	tile_images = { "light_green.png" },
-	drawtype = "nodebox",
-	is_ground_content = true,
-	paramtype = "light",
-	paramtype2 = "facedir",
-	sunlight_propagates = true,
-	light_source = 14,
-	groups = {cracky = 3, oddly_breakable_by_hand = 3},
-	legacy_wallmounted = true,	
-	sounds = default.node_sound_stone_defaults(),
-	node_box = {
-		type = "fixed",
-		fixed = {
-			{-0.125, -0.5, 0.25, 0.125, -0.25, 0.5}, -- Light
-		}
-	}				
-})
 
 
 

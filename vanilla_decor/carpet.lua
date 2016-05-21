@@ -46,7 +46,7 @@ for _, row in ipairs(dyes) do
 	local desc = row[2]
 	
 	-- Node Definition
-	minetest.register_node("vanilla_decor:" .. name, {
+	minetest.register_node("carpet:" .. name, {
 		description = desc .. " Carpet",
 		tiles = {"wool_" .. name .. ".png"},
 		is_ground_content = true,
@@ -66,7 +66,7 @@ for _, row in ipairs(dyes) do
 	
 	-- Crafting from wool
 	minetest.register_craft({
-		output = "vanilla_decor:" .. name .. " 4",
+		output = "carpet:" .. name .. " 4",
 		recipe = {
 			{"wool:" .. name, "wool:" .. name},
 		},
